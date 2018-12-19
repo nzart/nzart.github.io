@@ -7,7 +7,7 @@
 }
 
 .case {
-    padding-bottom: 5em;
+    padding-bottom: 3.5em;
     width: 65%;
 }
 
@@ -36,11 +36,8 @@
     background-repeat: no-repeat;
 //    margin-top: 1em;
     padding-top: 1em;
-    position: relative;
-    margin: 0 ;
     width: 2em;
     height: 36em;
-    background-position: center center;
 }
 
 .info {
@@ -55,28 +52,24 @@
     font: 2em $prime;
     font-weight: 900;
 //    margin-top: 1.5em;
-    padding: 2.5em 0 0 0;
-    text-align: center;
+    padding-top: 3em;
 }
 
 .bulk {
     color: #fff;
     font: 1.5em "Helvetica Neue";
-    line-height: 1.5em;  
+    line-height: 1.75em;  
 //    margin: 1em 0 2em 0;
-    padding: 1em 0;
-    margin: 0;
+    padding: .5em 0;
 }
 
 .photo2 {
     background-image: url(/img/photo2.png);
     background-size: contain;
     background-repeat: no-repeat;
-    padding-top: 2em;
-    margin: 0 auto;
+    margin-top: 1em;
     width: 2em;
     height: 30em;
-    background-position: center center;
 }
 
 .loc {

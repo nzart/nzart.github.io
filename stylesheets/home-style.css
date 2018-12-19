@@ -214,11 +214,10 @@
 
 /* line 4, ../sass/_contact.scss */
 .ninety {
-  width: 65%;
-  margin: auto;
+  padding: 0 10em;
 }
 
-/* line 9, ../sass/_contact.scss */
+/* line 8, ../sass/_contact.scss */
 .lgtw {
   font: 4em "Nunito Sans", sans-serif;
   font-weight: 900;
@@ -226,7 +225,7 @@
   padding-left: .25em;
 }
 
-/* line 16, ../sass/_contact.scss */
+/* line 15, ../sass/_contact.scss */
 .hl {
   font: 1.25em "Nunito Sans", sans-serif;
   color: #fff;
@@ -234,32 +233,32 @@
   width: 75%;
 }
 
-/* line 23, ../sass/_contact.scss */
+/* line 22, ../sass/_contact.scss */
 .connect {
   padding-left: 1.3em;
   color: #fff;
 }
-/* line 26, ../sass/_contact.scss */
+/* line 25, ../sass/_contact.scss */
 .connect p {
   font: 1.75em "Nunito Sans", sans-serif;
   font-weight: 900;
   margin-bottom: 0;
   line-height: .8em;
 }
-/* line 32, ../sass/_contact.scss */
+/* line 31, ../sass/_contact.scss */
 .connect h3 {
   font: 1.5em "Nunito Sans", sans-serif;
   margin-left: 1em;
   margin-bottom: 0;
 }
-/* line 37, ../sass/_contact.scss */
+/* line 36, ../sass/_contact.scss */
 .connect a {
   text-decoration: none;
   color: #fff;
   font: 1.5em "Nunito Sans", sans-serif;
   margin-left: 1em;
 }
-/* line 43, ../sass/_contact.scss */
+/* line 42, ../sass/_contact.scss */
 .connect .icon {
   content: '';
   padding-top: 1em;
@@ -401,188 +400,86 @@
   justify-content: center;
 }
 
-/*.waffle {
-    padding: 2.5em 0 4em;
-    width: 65%;
-    display: grid;
-    grid-gap: 2em;
-    a {
-        color: #fff;
-    }
-    .blue {
-        background-image: url(/img/t-shirt.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 12em;
-        position: relative;
-        opacity: 1;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-    .red {
-        background-image: url(/img/coffee_bar.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        height: 12em;
-        position: relative;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-    .green {
-        background-image: url(/img/nzart_mock.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 12em;
-        position: relative;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-    .orange {
-        background-image: url(/img/memp.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 12em;
-        position: relative;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-    .white {
-        background-image: url(/img/twitu_till.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 12em;
-        position: relative;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-}*/
-/* line 127, ../sass/_work.scss */
-.container {
-  display: grid;
+/* line 26, ../sass/_work.scss */
+.waffle {
+  margin: 2.5em 0 4em;
   width: 65%;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 12em;
-  grid-gap: 2em;
-  padding: 2em 0 4.5em;
 }
-/* line 135, ../sass/_work.scss */
-.container a {
+/* line 29, ../sass/_work.scss */
+.waffle a {
   color: #fff;
 }
-
-/* line 139, ../sass/_work.scss */
-.item {
-  min-height: 12em;
-  position: relative;
-  transition: border-bottom .25s linear;
-}
-/* line 143, ../sass/_work.scss */
-.item:hover {
-  border-bottom: 2em solid;
-}
-/* line 146, ../sass/_work.scss */
-.item p {
-  position: absolute;
-  margin: 0;
-  bottom: 0;
-}
-
-/* line 152, ../sass/_work.scss */
-.double {
-  grid-column: span 2;
-}
-
-/* line 157, ../sass/_work.scss */
-.tee {
+/* line 32, ../sass/_work.scss */
+.waffle .blue {
   background-image: url(/img/t-shirt.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 12em;
+  position: relative;
 }
-
-/* line 164, ../sass/_work.scss */
-.cof {
+/* line 39, ../sass/_work.scss */
+.waffle .blue p {
+  position: absolute;
+  bottom: 0;
+  font: 2em "Nunito Sans", sans-serif;
+}
+/* line 45, ../sass/_work.scss */
+.waffle .red {
   background-image: url(/img/coffee_bar.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  height: 12em;
+  position: relative;
 }
-
-/* line 171, ../sass/_work.scss */
-.trav {
+/* line 52, ../sass/_work.scss */
+.waffle .red p {
+  position: absolute;
+  bottom: 0;
+  font: 2em "Nunito Sans", sans-serif;
+}
+/* line 58, ../sass/_work.scss */
+.waffle .green {
   background-image: url(/img/nzart_mock.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 12em;
+  position: relative;
 }
-
-/* line 178, ../sass/_work.scss */
-.int {
-  background-image: url(/img/memp.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+/* line 65, ../sass/_work.scss */
+.waffle .green p {
+  position: absolute;
+  bottom: 0;
+  font: 2em "Nunito Sans", sans-serif;
 }
-
-/* line 185, ../sass/_work.scss */
-.tigvi {
+/* line 71, ../sass/_work.scss */
+.waffle .orange {
+  background-color: #fa9229;
+  height: 12em;
+  position: relative;
+}
+/* line 75, ../sass/_work.scss */
+.waffle .orange p {
+  position: absolute;
+  bottom: 0;
+  font: 2em "Nunito Sans", sans-serif;
+}
+/* line 81, ../sass/_work.scss */
+.waffle .white {
   background-image: url(/img/twitu_till.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-/* line 192, ../sass/_work.scss */
-.over {
-  width: 100%;
-  height: 100%;
+  height: 12em;
   position: relative;
+}
+/* line 88, ../sass/_work.scss */
+.waffle .white p {
+  position: absolute;
+  bottom: 0;
+  font: 2em "Nunito Sans", sans-serif;
 }
 
 /*  DEFAULT SETTINGS:
@@ -705,24 +602,22 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  padding-top: 1.5em;
 }
-/* line 17, ../sass/_about.scss */
+/* line 16, ../sass/_about.scss */
 .me .photo {
   background-image: url("../img/me_nyc.png");
   background-size: cover;
-  width: 25em;
+  width: 30em;
   height: 20em;
   border-radius: 4em;
 }
-/* line 24, ../sass/_about.scss */
+/* line 23, ../sass/_about.scss */
 .me p {
-  width: 40%;
+  width: 50%;
   font-family: "Helvetica Neue";
   color: #fff;
   font-size: 1.25em;
   padding-left: 2em;
-  margin: 0;
 }
 
 /*  DEFAULT SETTINGS:
@@ -840,7 +735,7 @@
 
 /* line 9, ../sass/_travlr.scss */
 .case {
-  padding-bottom: 5em;
+  padding-bottom: 3.5em;
   width: 65%;
 }
 
@@ -872,14 +767,11 @@
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 1em;
-  position: relative;
-  margin: 0;
   width: 2em;
   height: 36em;
-  background-position: center center;
 }
 
-/* line 46, ../sass/_travlr.scss */
+/* line 43, ../sass/_travlr.scss */
 .info {
   color: #fff;
   font: 1.5em sans-serif;
@@ -887,43 +779,39 @@
   margin: 9em 0 0 2em;
 }
 
-/* line 53, ../sass/_travlr.scss */
+/* line 50, ../sass/_travlr.scss */
 .heading {
   color: #fff;
   font: 2em "Nunito Sans", sans-serif;
   font-weight: 900;
-  padding: 2.5em 0 0 0;
-  text-align: center;
+  padding-top: 3em;
 }
 
-/* line 62, ../sass/_travlr.scss */
+/* line 58, ../sass/_travlr.scss */
 .bulk {
   color: #fff;
   font: 1.5em "Helvetica Neue";
-  line-height: 1.5em;
-  padding: 1em 0;
-  margin: 0;
+  line-height: 1.75em;
+  padding: .5em 0;
 }
 
-/* line 71, ../sass/_travlr.scss */
+/* line 66, ../sass/_travlr.scss */
 .photo2 {
   background-image: url(/img/photo2.png);
   background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 2em;
-  margin: 0 auto;
+  margin-top: 1em;
   width: 2em;
   height: 30em;
-  background-position: center center;
 }
 
-/* line 82, ../sass/_travlr.scss */
+/* line 75, ../sass/_travlr.scss */
 .loc {
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-/* line 87, ../sass/_travlr.scss */
+/* line 80, ../sass/_travlr.scss */
 .color {
   display: flex;
   width: 5em;
@@ -932,7 +820,7 @@
   margin: 2em;
 }
 
-/* line 95, ../sass/_travlr.scss */
+/* line 88, ../sass/_travlr.scss */
 .photo3 {
   background-image: url(/img/sign_in.png);
   background-size: contain;
@@ -942,7 +830,7 @@
   height: 30em;
 }
 
-/* line 104, ../sass/_travlr.scss */
+/* line 97, ../sass/_travlr.scss */
 .photo4 {
   background-image: url(/img/details.png);
   background-size: contain;
@@ -1004,4 +892,9 @@ footer a {
   margin: 0;
   padding: .5em;
   top: 1em;
+}
+
+/* line 59, ../sass/home-style.scss */
+.conservative {
+  float: right;
 }

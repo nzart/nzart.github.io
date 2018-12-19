@@ -226,10 +226,6 @@ Main Components
   height: 100%;
   width: 25%;
   float: left;
-  transition: background-color 0.5s;
-}
-.cd-3d-nav li:hover {
-    background-color: #c9abd9;
 }
 .cd-3d-nav li:first-of-type a::before {
   background-image: url(../img/home.svg);
