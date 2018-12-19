@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,900" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="outside/normalize.css">        
+        <link rel="stylesheet" type="text/css" href="outside/modernizr.js">
+        
+        <link rel="stylesheet" type="text/css" href="stylesheets/home-style.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/redo.css"> 
+        
+        
+        <link rel="stylesheet" type="text/css" href="stylesheets/simpletextrotator.css">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        
+        <script type="text/javascript" src="jquery.simple-text-rotator.js"></script>
+            
+        
+        <title>Does This Work?</title>
+    
+    </head>
+    
+    <body>
+        
+    <header class="cd-header">
+        <a href="#" class="cd-3d-nav-trigger">Menu<span></span></a>
+    </header>    
+    
+    <main>    
+        <div class="rotator">
+            <p>Hello, I am <span class="rotate">Nick Zart, a designer, a runner, an artist, a student, a developer</span>.</p>    
+        </div>
+    </main>
+        
+    <nav class="cd-3d-nav-container">
+		<ul class="cd-3d-nav">
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="./about.html">About</a></li>
+			<li><a href="./work.html">Work</a></li>
+			<li><a href="./contact.html">Contact</a></li>
+		</ul> 
+	</nav>
+        
+        
+    <footer>
+        <p>Nick Zart</p>
+        <a href="mailto:nzart@g.clemson.edu">Email</a>
+        <a href="https://twitter.com/nzart_GC">@Me</a>
+        
+        <script>
+            $(document).ready(function(){
+                $(".rotate").textrotator({
+                    animation: "dissolve",
+                    separator: ",", 
+                    speed: 4000 
+            });
+        });
+    </script>
+        
+    <script src="outside/main.js"></script>    
+    </footer>
+    
+    </body>

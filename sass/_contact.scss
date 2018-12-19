@@ -1,0 +1,54 @@
+@import 'variable';
+@import 'grid';
+
+.ninety {
+    width: 65%;
+    margin: auto;
+}
+
+.lgtw {
+    font: 4em $prime;
+    font-weight: 900;
+    color: #fff;
+    padding-left: .25em;
+}
+
+.hl {
+    font: 1.25em $prime;
+    color: #fff;
+    padding-left: 2em;
+    width: 75%;
+}
+
+.connect {
+    padding-left: 1.3em;
+    color: #fff;
+    p {
+        font: 1.75em $prime;
+        font-weight: 900;
+        margin-bottom: 0;
+        line-height: .8em;
+    }
+    h3 {
+        font: 1.5em $prime;
+        margin-left: 1em;
+        margin-bottom: 0;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        font: 1.5em $prime;
+        margin-left: 1em;
+    }
+    .icon {
+        content: '';
+        padding-top: 1em;
+        display: flex;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+
+

@@ -1,0 +1,1007 @@
+/*  DEFAULT SETTINGS:
+        MOBILE: 600px & below
+        TABLET: 600px - 900px
+        DSKTOP: 900px & up
+*/
+/* line 7, ../sass/_grid.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/***** GRID *****/
+/* line 13, ../sass/_grid.scss */
+.column {
+  float: left;
+  padding: 10px 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.nofloat {
+  float: none;
+}
+
+/* line 20, ../sass/_grid.scss */
+.column.full {
+  width: 100%;
+}
+
+/* line 23, ../sass/_grid.scss */
+.column.twothirds {
+  width: 66.666666%;
+}
+
+/* line 26, ../sass/_grid.scss */
+.column.threefourths {
+  width: 75%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.column.fourfifths {
+  width: 80%;
+}
+
+/* line 32, ../sass/_grid.scss */
+.column.fivesixths {
+  width: 83.333333%;
+}
+
+/* line 35, ../sass/_grid.scss */
+.column.threequarter {
+  width: 75%;
+}
+
+/* line 38, ../sass/_grid.scss */
+.column.half {
+  width: 50%;
+}
+
+/* line 41, ../sass/_grid.scss */
+.column.third {
+  width: 33.333333%;
+}
+
+/* line 44, ../sass/_grid.scss */
+.column.fourth {
+  width: 25%;
+}
+
+/* line 47, ../sass/_grid.scss */
+.column.fifth {
+  width: 20%;
+}
+
+/* line 50, ../sass/_grid.scss */
+.column.sixth {
+  width: 16.666666%;
+}
+
+/***** TOOLS *****/
+/* line 54, ../sass/_grid.scss */
+.center {
+  float: none;
+  margin: auto;
+}
+
+/* line 58, ../sass/_grid.scss */
+.nospace {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 62, ../sass/_grid.scss */
+.flowopposite {
+  float: right;
+}
+
+/* line 65, ../sass/_grid.scss */
+.nopadding {
+  padding: 0 !important;
+}
+
+/* line 68, ../sass/_grid.scss */
+.clearall {
+  clear: both;
+}
+
+/*  DEFAULT SETTINGS:
+        MOBILE: 600px & below
+        TABLET: 600px - 900px
+        DSKTOP: 900px & up
+*/
+/* line 7, ../sass/_grid.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/***** GRID *****/
+/* line 13, ../sass/_grid.scss */
+.column {
+  float: left;
+  padding: 10px 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.nofloat {
+  float: none;
+}
+
+/* line 20, ../sass/_grid.scss */
+.column.full {
+  width: 100%;
+}
+
+/* line 23, ../sass/_grid.scss */
+.column.twothirds {
+  width: 66.666666%;
+}
+
+/* line 26, ../sass/_grid.scss */
+.column.threefourths {
+  width: 75%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.column.fourfifths {
+  width: 80%;
+}
+
+/* line 32, ../sass/_grid.scss */
+.column.fivesixths {
+  width: 83.333333%;
+}
+
+/* line 35, ../sass/_grid.scss */
+.column.threequarter {
+  width: 75%;
+}
+
+/* line 38, ../sass/_grid.scss */
+.column.half {
+  width: 50%;
+}
+
+/* line 41, ../sass/_grid.scss */
+.column.third {
+  width: 33.333333%;
+}
+
+/* line 44, ../sass/_grid.scss */
+.column.fourth {
+  width: 25%;
+}
+
+/* line 47, ../sass/_grid.scss */
+.column.fifth {
+  width: 20%;
+}
+
+/* line 50, ../sass/_grid.scss */
+.column.sixth {
+  width: 16.666666%;
+}
+
+/***** TOOLS *****/
+/* line 54, ../sass/_grid.scss */
+.center {
+  float: none;
+  margin: auto;
+}
+
+/* line 58, ../sass/_grid.scss */
+.nospace {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 62, ../sass/_grid.scss */
+.flowopposite {
+  float: right;
+}
+
+/* line 65, ../sass/_grid.scss */
+.nopadding {
+  padding: 0 !important;
+}
+
+/* line 68, ../sass/_grid.scss */
+.clearall {
+  clear: both;
+}
+
+/* line 4, ../sass/_contact.scss */
+.ninety {
+  width: 65%;
+  margin: auto;
+}
+
+/* line 9, ../sass/_contact.scss */
+.lgtw {
+  font: 4em "Nunito Sans", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  padding-left: .25em;
+}
+
+/* line 16, ../sass/_contact.scss */
+.hl {
+  font: 1.25em "Nunito Sans", sans-serif;
+  color: #fff;
+  padding-left: 2em;
+  width: 75%;
+}
+
+/* line 23, ../sass/_contact.scss */
+.connect {
+  padding-left: 1.3em;
+  color: #fff;
+}
+/* line 26, ../sass/_contact.scss */
+.connect p {
+  font: 1.75em "Nunito Sans", sans-serif;
+  font-weight: 900;
+  margin-bottom: 0;
+  line-height: .8em;
+}
+/* line 32, ../sass/_contact.scss */
+.connect h3 {
+  font: 1.5em "Nunito Sans", sans-serif;
+  margin-left: 1em;
+  margin-bottom: 0;
+}
+/* line 37, ../sass/_contact.scss */
+.connect a {
+  text-decoration: none;
+  color: #fff;
+  font: 1.5em "Nunito Sans", sans-serif;
+  margin-left: 1em;
+}
+/* line 43, ../sass/_contact.scss */
+.connect .icon {
+  content: '';
+  padding-top: 1em;
+  display: flex;
+  width: 32px;
+  height: 32px;
+}
+
+/*  DEFAULT SETTINGS:
+        MOBILE: 600px & below
+        TABLET: 600px - 900px
+        DSKTOP: 900px & up
+*/
+/* line 7, ../sass/_grid.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/***** GRID *****/
+/* line 13, ../sass/_grid.scss */
+.column {
+  float: left;
+  padding: 10px 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.nofloat {
+  float: none;
+}
+
+/* line 20, ../sass/_grid.scss */
+.column.full {
+  width: 100%;
+}
+
+/* line 23, ../sass/_grid.scss */
+.column.twothirds {
+  width: 66.666666%;
+}
+
+/* line 26, ../sass/_grid.scss */
+.column.threefourths {
+  width: 75%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.column.fourfifths {
+  width: 80%;
+}
+
+/* line 32, ../sass/_grid.scss */
+.column.fivesixths {
+  width: 83.333333%;
+}
+
+/* line 35, ../sass/_grid.scss */
+.column.threequarter {
+  width: 75%;
+}
+
+/* line 38, ../sass/_grid.scss */
+.column.half {
+  width: 50%;
+}
+
+/* line 41, ../sass/_grid.scss */
+.column.third {
+  width: 33.333333%;
+}
+
+/* line 44, ../sass/_grid.scss */
+.column.fourth {
+  width: 25%;
+}
+
+/* line 47, ../sass/_grid.scss */
+.column.fifth {
+  width: 20%;
+}
+
+/* line 50, ../sass/_grid.scss */
+.column.sixth {
+  width: 16.666666%;
+}
+
+/***** TOOLS *****/
+/* line 54, ../sass/_grid.scss */
+.center {
+  float: none;
+  margin: auto;
+}
+
+/* line 58, ../sass/_grid.scss */
+.nospace {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 62, ../sass/_grid.scss */
+.flowopposite {
+  float: right;
+}
+
+/* line 65, ../sass/_grid.scss */
+.nopadding {
+  padding: 0 !important;
+}
+
+/* line 68, ../sass/_grid.scss */
+.clearall {
+  clear: both;
+}
+
+/* line 4, ../sass/_work.scss */
+.white {
+  background-color: #fff;
+}
+
+/* line 8, ../sass/_work.scss */
+.work {
+  font: 3.5em "Nunito Sans", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 15, ../sass/_work.scss */
+.ram {
+  font: 1.5em "Nunito Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 21, ../sass/_work.scss */
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+/*.waffle {
+    padding: 2.5em 0 4em;
+    width: 65%;
+    display: grid;
+    grid-gap: 2em;
+    a {
+        color: #fff;
+    }
+    .blue {
+        background-image: url(/img/t-shirt.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 12em;
+        position: relative;
+        opacity: 1;
+        transition: 0.5s ease;
+        &:hover {
+            transform: scale(1.2);
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            font: 2em $prime;
+            margin: 0;
+        }
+    }
+    .red {
+        background-image: url(/img/coffee_bar.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 12em;
+        position: relative;
+        transition: 0.5s ease;
+        &:hover {
+            transform: scale(1.2);
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            font: 2em $prime;
+            margin: 0;
+        }
+    }
+    .green {
+        background-image: url(/img/nzart_mock.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 12em;
+        position: relative;
+        transition: 0.5s ease;
+        &:hover {
+            transform: scale(1.2);
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            font: 2em $prime;
+            margin: 0;
+        }
+    }
+    .orange {
+        background-image: url(/img/memp.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 12em;
+        position: relative;
+        transition: 0.5s ease;
+        &:hover {
+            transform: scale(1.2);
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            font: 2em $prime;
+            margin: 0;
+        }
+    }
+    .white {
+        background-image: url(/img/twitu_till.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 12em;
+        position: relative;
+        transition: 0.5s ease;
+        &:hover {
+            transform: scale(1.2);
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            font: 2em $prime;
+            margin: 0;
+        }
+    }
+}*/
+/* line 127, ../sass/_work.scss */
+.container {
+  display: grid;
+  width: 65%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 12em;
+  grid-gap: 2em;
+  padding: 2em 0 4.5em;
+}
+/* line 135, ../sass/_work.scss */
+.container a {
+  color: #fff;
+}
+
+/* line 139, ../sass/_work.scss */
+.item {
+  min-height: 12em;
+  position: relative;
+  transition: border-bottom .25s linear;
+}
+/* line 143, ../sass/_work.scss */
+.item:hover {
+  border-bottom: 2em solid;
+}
+/* line 146, ../sass/_work.scss */
+.item p {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+}
+
+/* line 152, ../sass/_work.scss */
+.double {
+  grid-column: span 2;
+}
+
+/* line 157, ../sass/_work.scss */
+.tee {
+  background-image: url(/img/t-shirt.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 164, ../sass/_work.scss */
+.cof {
+  background-image: url(/img/coffee_bar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/* line 171, ../sass/_work.scss */
+.trav {
+  background-image: url(/img/nzart_mock.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 178, ../sass/_work.scss */
+.int {
+  background-image: url(/img/memp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 185, ../sass/_work.scss */
+.tigvi {
+  background-image: url(/img/twitu_till.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 192, ../sass/_work.scss */
+.over {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/*  DEFAULT SETTINGS:
+        MOBILE: 600px & below
+        TABLET: 600px - 900px
+        DSKTOP: 900px & up
+*/
+/* line 7, ../sass/_grid.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/***** GRID *****/
+/* line 13, ../sass/_grid.scss */
+.column {
+  float: left;
+  padding: 10px 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.nofloat {
+  float: none;
+}
+
+/* line 20, ../sass/_grid.scss */
+.column.full {
+  width: 100%;
+}
+
+/* line 23, ../sass/_grid.scss */
+.column.twothirds {
+  width: 66.666666%;
+}
+
+/* line 26, ../sass/_grid.scss */
+.column.threefourths {
+  width: 75%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.column.fourfifths {
+  width: 80%;
+}
+
+/* line 32, ../sass/_grid.scss */
+.column.fivesixths {
+  width: 83.333333%;
+}
+
+/* line 35, ../sass/_grid.scss */
+.column.threequarter {
+  width: 75%;
+}
+
+/* line 38, ../sass/_grid.scss */
+.column.half {
+  width: 50%;
+}
+
+/* line 41, ../sass/_grid.scss */
+.column.third {
+  width: 33.333333%;
+}
+
+/* line 44, ../sass/_grid.scss */
+.column.fourth {
+  width: 25%;
+}
+
+/* line 47, ../sass/_grid.scss */
+.column.fifth {
+  width: 20%;
+}
+
+/* line 50, ../sass/_grid.scss */
+.column.sixth {
+  width: 16.666666%;
+}
+
+/***** TOOLS *****/
+/* line 54, ../sass/_grid.scss */
+.center {
+  float: none;
+  margin: auto;
+}
+
+/* line 58, ../sass/_grid.scss */
+.nospace {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 62, ../sass/_grid.scss */
+.flowopposite {
+  float: right;
+}
+
+/* line 65, ../sass/_grid.scss */
+.nopadding {
+  padding: 0 !important;
+}
+
+/* line 68, ../sass/_grid.scss */
+.clearall {
+  clear: both;
+}
+
+/* line 4, ../sass/_about.scss */
+.about {
+  font: 3.5em "Nunito Sans", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  margin: 0 0 .5em 3.5em;
+}
+
+/* line 12, ../sass/_about.scss */
+.me {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 1.5em;
+}
+/* line 17, ../sass/_about.scss */
+.me .photo {
+  background-image: url("../img/me_nyc.png");
+  background-size: cover;
+  width: 25em;
+  height: 20em;
+  border-radius: 4em;
+}
+/* line 24, ../sass/_about.scss */
+.me p {
+  width: 40%;
+  font-family: "Helvetica Neue";
+  color: #fff;
+  font-size: 1.25em;
+  padding-left: 2em;
+  margin: 0;
+}
+
+/*  DEFAULT SETTINGS:
+        MOBILE: 600px & below
+        TABLET: 600px - 900px
+        DSKTOP: 900px & up
+*/
+/* line 7, ../sass/_grid.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/***** GRID *****/
+/* line 13, ../sass/_grid.scss */
+.column {
+  float: left;
+  padding: 10px 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.nofloat {
+  float: none;
+}
+
+/* line 20, ../sass/_grid.scss */
+.column.full {
+  width: 100%;
+}
+
+/* line 23, ../sass/_grid.scss */
+.column.twothirds {
+  width: 66.666666%;
+}
+
+/* line 26, ../sass/_grid.scss */
+.column.threefourths {
+  width: 75%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.column.fourfifths {
+  width: 80%;
+}
+
+/* line 32, ../sass/_grid.scss */
+.column.fivesixths {
+  width: 83.333333%;
+}
+
+/* line 35, ../sass/_grid.scss */
+.column.threequarter {
+  width: 75%;
+}
+
+/* line 38, ../sass/_grid.scss */
+.column.half {
+  width: 50%;
+}
+
+/* line 41, ../sass/_grid.scss */
+.column.third {
+  width: 33.333333%;
+}
+
+/* line 44, ../sass/_grid.scss */
+.column.fourth {
+  width: 25%;
+}
+
+/* line 47, ../sass/_grid.scss */
+.column.fifth {
+  width: 20%;
+}
+
+/* line 50, ../sass/_grid.scss */
+.column.sixth {
+  width: 16.666666%;
+}
+
+/***** TOOLS *****/
+/* line 54, ../sass/_grid.scss */
+.center {
+  float: none;
+  margin: auto;
+}
+
+/* line 58, ../sass/_grid.scss */
+.nospace {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 62, ../sass/_grid.scss */
+.flowopposite {
+  float: right;
+}
+
+/* line 65, ../sass/_grid.scss */
+.nopadding {
+  padding: 0 !important;
+}
+
+/* line 68, ../sass/_grid.scss */
+.clearall {
+  clear: both;
+}
+
+/* line 4, ../sass/_travlr.scss */
+.study1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 9, ../sass/_travlr.scss */
+.case {
+  padding-bottom: 5em;
+  width: 65%;
+}
+
+/* line 14, ../sass/_travlr.scss */
+.paper {
+  width: 10em;
+  height: 18em;
+}
+
+/* line 19, ../sass/_travlr.scss */
+.travlr {
+  color: #fff;
+  font: 3.5em "Nunito Sans", sans-serif;
+  font-weight: 900;
+  height: 5em;
+  position: relative;
+  text-align: center;
+}
+/* line 26, ../sass/_travlr.scss */
+.travlr p {
+  font: .75em sans-serif;
+  margin: 0;
+  padding-top: .5em;
+}
+
+/* line 33, ../sass/_travlr.scss */
+.photo1 {
+  background-image: url(/img/Simple%20Dark.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 1em;
+  position: relative;
+  margin: 0;
+  width: 2em;
+  height: 36em;
+  background-position: center center;
+}
+
+/* line 46, ../sass/_travlr.scss */
+.info {
+  color: #fff;
+  font: 1.5em sans-serif;
+  line-height: 1.5em;
+  margin: 9em 0 0 2em;
+}
+
+/* line 53, ../sass/_travlr.scss */
+.heading {
+  color: #fff;
+  font: 2em "Nunito Sans", sans-serif;
+  font-weight: 900;
+  padding: 2.5em 0 0 0;
+  text-align: center;
+}
+
+/* line 62, ../sass/_travlr.scss */
+.bulk {
+  color: #fff;
+  font: 1.5em "Helvetica Neue";
+  line-height: 1.5em;
+  padding: 1em 0;
+  margin: 0;
+}
+
+/* line 71, ../sass/_travlr.scss */
+.photo2 {
+  background-image: url(/img/photo2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+  margin: 0 auto;
+  width: 2em;
+  height: 30em;
+  background-position: center center;
+}
+
+/* line 82, ../sass/_travlr.scss */
+.loc {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 87, ../sass/_travlr.scss */
+.color {
+  display: flex;
+  width: 5em;
+  height: 15em;
+  border-radius: 2em;
+  margin: 2em;
+}
+
+/* line 95, ../sass/_travlr.scss */
+.photo3 {
+  background-image: url(/img/sign_in.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1em;
+  width: 2em;
+  height: 30em;
+}
+
+/* line 104, ../sass/_travlr.scss */
+.photo4 {
+  background-image: url(/img/details.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1em;
+  width: 2em;
+  height: 30em;
+}
+
+/* line 10, ../sass/home-style.scss */
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: linear-gradient(16deg, #1d2b67 0%, #9c4ac9 100%);
+  min-height: 100vh;
+  position: relative;
+}
+
+/* line 18, ../sass/home-style.scss */
+.rotator {
+  font-family: "Verdana";
+  font-size: 3em;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+/* line 31, ../sass/home-style.scss */
+footer {
+  background-color: #ffffff;
+  width: 100vw;
+  max-width: 1440px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* line 38, ../sass/home-style.scss */
+footer p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.15em;
+  display: inline-block;
+  margin: 0;
+  padding: .5em;
+  top: 1em;
+}
+/* line 46, ../sass/home-style.scss */
+footer a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.15em;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0;
+  padding: .5em;
+  top: 1em;
+}
