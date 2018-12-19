@@ -13,18 +13,20 @@
     display: flex;
     justify-content: center;
     margin: auto;
+    padding-top: 1.5em;
     .photo {
         background-image: url("../img/me_nyc.png");
         background-size: cover;
-        width: 30em;
+        width: 25em;
         height: 20em;
         border-radius: 4em;
     }
     p {
-        width: 50%;
+        width: 40%;
         font-family: "Helvetica Neue";
         color: #fff;
         font-size: 1.25em;
         padding-left: 2em;
+        margin: 0;
     }
 }
