@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     padding: 0;
     background: linear-gradient(16deg, rgba(29,43,103,1) 0%, rgba(156,74,201,1) 100%);
+    //background-color: #fff;
     min-height: 100vh;
     position: relative;
 }
@@ -18,7 +19,7 @@ body {
 .rotator {
     font-family: "Verdana";
     font-size: 3em;
-    color: white;
+    color: #fff;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -30,11 +31,14 @@ body {
 
 footer {
     background-color: #ffffff;
-    width: 100vw;
+    width: 100%;
+    //display: flex;
+    //flex-shrink: 0;
     max-width: 2000px;
+    margin: auto auto 0 auto;
     position: absolute;
     bottom: 0;
-    left: 0;
+    //left: 0;
     p {
         font-family: $prime;
         font-size: 1.15em;
@@ -56,3 +60,87 @@ footer {
     }
 }
 
+
+//Reusable
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.head {
+    font: 3.5em $prime;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+.sub {
+    font: 1.5em $prime;
+    color: #fff;
+    text-align: center;
+}
+
+.photos {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+    height: 300px;
+}
+
+/***********
+**Case Study
+***********/
+.bodyp {
+    width: 75%;
+    margin: 0 auto;
+    font-family: $second-font;
+    font-size: $par-size;
+    color: #fff;
+}
+.sugar_cl {
+    background-image: url(../img/sugar_cl.jpg);
+}
+.user1 {
+    background-image: url(../img/user1.png);
+}
+.user2 {
+    background-image: url(../img/user2.png);
+}
+.colors {
+    background-image: url(../img/colors.png);
+}
+.me {
+    background-image: url(../img/me_nyc.png);
+    background-size: contain;
+}
+
+
+
+/***********
+**Padding&Margin
+***********/
+.bot1 {
+    padding-bottom: 1em;
+}
+
+.bot2 {
+    padding-bottom: 2em;
+}
+
+.bot3 {
+    padding-bottom: 3em;
+}
+
+.mar1 {
+    margin-bottom: 1em;
+}
+
+.mar2 {
+    margin-bottom: 2em;
+}

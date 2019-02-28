@@ -1,196 +1,25 @@
 @import 'variable';
 @import 'grid';
 
-.white {
-    background-color: #fff;
-}
-
-.work {
-    font: 3.5em $prime;
-    font-weight: 900; 
-    color: #fff;
-    text-align: center;
-}
-
-.ram {
-    font: 1.5em $prime;
-    color: #fff;
-    text-align: center;
-}
-
-.wrap {
-    display: flex;
-    justify-content: center;
-}
-
-/*.waffle {
-    padding: 2.5em 0 4em;
-    width: 65%;
-    display: grid;
-    grid-gap: 2em;
-    a {
-        color: #fff;
-    }
-    .blue {
-        background-image: url(/img/t-shirt.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 12em;
-        position: relative;
-        opacity: 1;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-    .red {
-        background-image: url(/img/coffee_bar.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        height: 12em;
-        position: relative;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-    .green {
-        background-image: url(/img/nzart_mock.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 12em;
-        position: relative;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-    .orange {
-        background-image: url(/img/memp.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 12em;
-        position: relative;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-    .white {
-        background-image: url(/img/twitu_till.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 12em;
-        position: relative;
-        transition: 0.5s ease;
-        &:hover {
-            transform: scale(1.2);
-        }
-        p {
-            position: absolute;
-            bottom: 0;
-            font: 2em $prime;
-            margin: 0;
-        }
-    }
-}*/
-
-.container {
-    display: grid;
-    width: 65%;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 12em;
-    grid-gap: 2em;
-    padding: 2em 0 4.5em;
-    a {
-        color: #fff;
-    }
-}
-.item {
-    min-height: 12em;
-    position: relative;
-    transition: border-bottom .25s linear;
-    &:hover {
-        border-bottom: 2em solid;
-    }
-    p {
-        position: absolute;
-        margin: 0;
-        bottom: 0;
-    }
-}
-.double {
-    grid-column: span 2;
-}
-
-
 .tee {
-   background-image: url(/img/t-shirt.png);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
+   background-image: url(../img/t-shirt.png);
+   background-position: bottom;
 }
 
-.cof {
-   background-image: url(/img/coffee_bar.png);
-   background-size: cover;
-   background-repeat: no-repeat;
+.runr {
+   background-image: url(../img/runr.jpg);
    background-position: bottom;
 }
 
 .trav {
-    background-image: url(/img/nzart_mock.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;    
+    background-image: url(../img/nzart_mock.png); 
 }
 
 .int {
-    background-image: url(/img/memp.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-image: url(../img/memp.png);
 }
 
 .tigvi {
-    background-image: url(/img/twitu_till.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../img/twitu_till.png);
 }
 
-.over {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}

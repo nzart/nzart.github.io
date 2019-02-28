@@ -31,7 +31,7 @@
 }
 
 .photo1 {
-    background-image: url(/img/Simple%20Dark.png);
+    background-image: url(../img/Simple%20Dark.png);
     background-size: contain;
     background-repeat: no-repeat;
 //    margin-top: 1em;
@@ -43,25 +43,10 @@
     background-position: center center;
 }
 
-.info {
-    color: #fff;
-    font: 1.5em sans-serif;
-    line-height: 1.5em;
-    margin: 9em 0 0 2em;
-}
-
-.heading {
-    color: #fff;
-    font: 2em $prime;
-    font-weight: 900;
-//    margin-top: 1.5em;
-    padding: 2.5em 0 0 0;
-    text-align: center;
-}
 
 .bulk {
     color: #fff;
-    font: 1.5em "Helvetica Neue";
+    font: 1.25em "Helvetica Neue";
     line-height: 1.5em;  
 //    margin: 1em 0 2em 0;
     padding: 1em 0;
@@ -69,14 +54,14 @@
 }
 
 .photo2 {
-    background-image: url(/img/photo2.png);
+    background-image: url(../img/photo2.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center center;
     padding-top: 2em;
     margin: 0 auto;
     width: 2em;
-    height: 30em;
-    background-position: center center;
+    height: 30em; 
 }
 
 .loc {
