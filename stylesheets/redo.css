@@ -14,11 +14,11 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-/*  background-color: #485274;*/
 }
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 
