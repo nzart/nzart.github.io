@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 /***** GRID *****/
-.column {
+/*.column {
     float:left;
     padding: 10px 10px;
 }
@@ -50,7 +50,7 @@
 .column.sixth {
     width:16.666666%;
 }
-/***** TOOLS *****/
+**** TOOLS ****
 .center {
     float:none;
     margin:auto;
@@ -67,4 +67,29 @@
 }
 .clearall {
     clear:both;
+}*/
+
+/************
+** Built
+************/
+
+
+.onefour {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
 }
+
+
+.redo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: row;
+    //flex-direction: row-reverse;
+}
+
+
+
+

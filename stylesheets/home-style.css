@@ -11,98 +11,81 @@
 }
 
 /***** GRID *****/
-/* line 13, ../sass/_grid.scss */
-.column {
-  float: left;
-  padding: 10px 10px;
+/*.column {
+    float:left;
+    padding: 10px 10px;
 }
-
-/* line 17, ../sass/_grid.scss */
 .nofloat {
-  float: none;
+    float:none;
 }
-
-/* line 20, ../sass/_grid.scss */
 .column.full {
-  width: 100%;
+    width:100%;
 }
-
-/* line 23, ../sass/_grid.scss */
 .column.twothirds {
-  width: 66.666666%;
+    width:66.666666%;
 }
-
-/* line 26, ../sass/_grid.scss */
 .column.threefourths {
-  width: 75%;
+    width:75%;
 }
-
-/* line 29, ../sass/_grid.scss */
 .column.fourfifths {
-  width: 80%;
+    width:80%;
 }
-
-/* line 32, ../sass/_grid.scss */
 .column.fivesixths {
-  width: 83.333333%;
+    width:83.333333%;
 }
-
-/* line 35, ../sass/_grid.scss */
 .column.threequarter {
-  width: 75%;
+    width:75%;
 }
-
-/* line 38, ../sass/_grid.scss */
 .column.half {
-  width: 50%;
+    width:50%;
 }
-
-/* line 41, ../sass/_grid.scss */
 .column.third {
-  width: 33.333333%;
+    width:33.333333%;
 }
-
-/* line 44, ../sass/_grid.scss */
 .column.fourth {
-  width: 25%;
+    width:25%;
 }
-
-/* line 47, ../sass/_grid.scss */
 .column.fifth {
-  width: 20%;
+    width:20%;
 }
-
-/* line 50, ../sass/_grid.scss */
 .column.sixth {
-  width: 16.666666%;
+    width:16.666666%;
 }
-
-/***** TOOLS *****/
-/* line 54, ../sass/_grid.scss */
+**** TOOLS ****
 .center {
-  float: none;
-  margin: auto;
+    float:none;
+    margin:auto;
 }
-
-/* line 58, ../sass/_grid.scss */
 .nospace {
-  padding: 0 !important;
-  margin: 0 !important;
+    padding:0 !important;
+    margin:0 !important;
 }
-
-/* line 62, ../sass/_grid.scss */
 .flowopposite {
-  float: right;
+    float:right;
 }
-
-/* line 65, ../sass/_grid.scss */
 .nopadding {
-  padding: 0 !important;
+    padding:0 !important;
+}
+.clearall {
+    clear:both;
+}*/
+/************
+** Built
+************/
+/* line 77, ../sass/_grid.scss */
+.onefour {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
 }
 
-/* line 68, ../sass/_grid.scss */
-.clearall {
-  clear: both;
+/* line 84, ../sass/_grid.scss */
+.redo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: row;
 }
 
 /*  DEFAULT SETTINGS:
@@ -118,98 +101,81 @@
 }
 
 /***** GRID *****/
-/* line 13, ../sass/_grid.scss */
-.column {
-  float: left;
-  padding: 10px 10px;
+/*.column {
+    float:left;
+    padding: 10px 10px;
 }
-
-/* line 17, ../sass/_grid.scss */
 .nofloat {
-  float: none;
+    float:none;
 }
-
-/* line 20, ../sass/_grid.scss */
 .column.full {
-  width: 100%;
+    width:100%;
 }
-
-/* line 23, ../sass/_grid.scss */
 .column.twothirds {
-  width: 66.666666%;
+    width:66.666666%;
 }
-
-/* line 26, ../sass/_grid.scss */
 .column.threefourths {
-  width: 75%;
+    width:75%;
 }
-
-/* line 29, ../sass/_grid.scss */
 .column.fourfifths {
-  width: 80%;
+    width:80%;
 }
-
-/* line 32, ../sass/_grid.scss */
 .column.fivesixths {
-  width: 83.333333%;
+    width:83.333333%;
 }
-
-/* line 35, ../sass/_grid.scss */
 .column.threequarter {
-  width: 75%;
+    width:75%;
 }
-
-/* line 38, ../sass/_grid.scss */
 .column.half {
-  width: 50%;
+    width:50%;
 }
-
-/* line 41, ../sass/_grid.scss */
 .column.third {
-  width: 33.333333%;
+    width:33.333333%;
 }
-
-/* line 44, ../sass/_grid.scss */
 .column.fourth {
-  width: 25%;
+    width:25%;
 }
-
-/* line 47, ../sass/_grid.scss */
 .column.fifth {
-  width: 20%;
+    width:20%;
 }
-
-/* line 50, ../sass/_grid.scss */
 .column.sixth {
-  width: 16.666666%;
+    width:16.666666%;
 }
-
-/***** TOOLS *****/
-/* line 54, ../sass/_grid.scss */
+**** TOOLS ****
 .center {
-  float: none;
-  margin: auto;
+    float:none;
+    margin:auto;
 }
-
-/* line 58, ../sass/_grid.scss */
 .nospace {
-  padding: 0 !important;
-  margin: 0 !important;
+    padding:0 !important;
+    margin:0 !important;
 }
-
-/* line 62, ../sass/_grid.scss */
 .flowopposite {
-  float: right;
+    float:right;
 }
-
-/* line 65, ../sass/_grid.scss */
 .nopadding {
-  padding: 0 !important;
+    padding:0 !important;
+}
+.clearall {
+    clear:both;
+}*/
+/************
+** Built
+************/
+/* line 77, ../sass/_grid.scss */
+.onefour {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
 }
 
-/* line 68, ../sass/_grid.scss */
-.clearall {
-  clear: both;
+/* line 84, ../sass/_grid.scss */
+.redo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: row;
 }
 
 /* line 4, ../sass/_contact.scss */
@@ -275,98 +241,81 @@
 }
 
 /***** GRID *****/
-/* line 13, ../sass/_grid.scss */
-.column {
-  float: left;
-  padding: 10px 10px;
+/*.column {
+    float:left;
+    padding: 10px 10px;
 }
-
-/* line 17, ../sass/_grid.scss */
 .nofloat {
-  float: none;
+    float:none;
 }
-
-/* line 20, ../sass/_grid.scss */
 .column.full {
-  width: 100%;
+    width:100%;
 }
-
-/* line 23, ../sass/_grid.scss */
 .column.twothirds {
-  width: 66.666666%;
+    width:66.666666%;
 }
-
-/* line 26, ../sass/_grid.scss */
 .column.threefourths {
-  width: 75%;
+    width:75%;
 }
-
-/* line 29, ../sass/_grid.scss */
 .column.fourfifths {
-  width: 80%;
+    width:80%;
 }
-
-/* line 32, ../sass/_grid.scss */
 .column.fivesixths {
-  width: 83.333333%;
+    width:83.333333%;
 }
-
-/* line 35, ../sass/_grid.scss */
 .column.threequarter {
-  width: 75%;
+    width:75%;
 }
-
-/* line 38, ../sass/_grid.scss */
 .column.half {
-  width: 50%;
+    width:50%;
 }
-
-/* line 41, ../sass/_grid.scss */
 .column.third {
-  width: 33.333333%;
+    width:33.333333%;
 }
-
-/* line 44, ../sass/_grid.scss */
 .column.fourth {
-  width: 25%;
+    width:25%;
 }
-
-/* line 47, ../sass/_grid.scss */
 .column.fifth {
-  width: 20%;
+    width:20%;
 }
-
-/* line 50, ../sass/_grid.scss */
 .column.sixth {
-  width: 16.666666%;
+    width:16.666666%;
 }
-
-/***** TOOLS *****/
-/* line 54, ../sass/_grid.scss */
+**** TOOLS ****
 .center {
-  float: none;
-  margin: auto;
+    float:none;
+    margin:auto;
 }
-
-/* line 58, ../sass/_grid.scss */
 .nospace {
-  padding: 0 !important;
-  margin: 0 !important;
+    padding:0 !important;
+    margin:0 !important;
 }
-
-/* line 62, ../sass/_grid.scss */
 .flowopposite {
-  float: right;
+    float:right;
 }
-
-/* line 65, ../sass/_grid.scss */
 .nopadding {
-  padding: 0 !important;
+    padding:0 !important;
+}
+.clearall {
+    clear:both;
+}*/
+/************
+** Built
+************/
+/* line 77, ../sass/_grid.scss */
+.onefour {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
 }
 
-/* line 68, ../sass/_grid.scss */
-.clearall {
-  clear: both;
+/* line 84, ../sass/_grid.scss */
+.redo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: row;
 }
 
 /* line 4, ../sass/_work.scss */
@@ -404,98 +353,81 @@
 }
 
 /***** GRID *****/
-/* line 13, ../sass/_grid.scss */
-.column {
-  float: left;
-  padding: 10px 10px;
+/*.column {
+    float:left;
+    padding: 10px 10px;
 }
-
-/* line 17, ../sass/_grid.scss */
 .nofloat {
-  float: none;
+    float:none;
 }
-
-/* line 20, ../sass/_grid.scss */
 .column.full {
-  width: 100%;
+    width:100%;
 }
-
-/* line 23, ../sass/_grid.scss */
 .column.twothirds {
-  width: 66.666666%;
+    width:66.666666%;
 }
-
-/* line 26, ../sass/_grid.scss */
 .column.threefourths {
-  width: 75%;
+    width:75%;
 }
-
-/* line 29, ../sass/_grid.scss */
 .column.fourfifths {
-  width: 80%;
+    width:80%;
 }
-
-/* line 32, ../sass/_grid.scss */
 .column.fivesixths {
-  width: 83.333333%;
+    width:83.333333%;
 }
-
-/* line 35, ../sass/_grid.scss */
 .column.threequarter {
-  width: 75%;
+    width:75%;
 }
-
-/* line 38, ../sass/_grid.scss */
 .column.half {
-  width: 50%;
+    width:50%;
 }
-
-/* line 41, ../sass/_grid.scss */
 .column.third {
-  width: 33.333333%;
+    width:33.333333%;
 }
-
-/* line 44, ../sass/_grid.scss */
 .column.fourth {
-  width: 25%;
+    width:25%;
 }
-
-/* line 47, ../sass/_grid.scss */
 .column.fifth {
-  width: 20%;
+    width:20%;
 }
-
-/* line 50, ../sass/_grid.scss */
 .column.sixth {
-  width: 16.666666%;
+    width:16.666666%;
 }
-
-/***** TOOLS *****/
-/* line 54, ../sass/_grid.scss */
+**** TOOLS ****
 .center {
-  float: none;
-  margin: auto;
+    float:none;
+    margin:auto;
 }
-
-/* line 58, ../sass/_grid.scss */
 .nospace {
-  padding: 0 !important;
-  margin: 0 !important;
+    padding:0 !important;
+    margin:0 !important;
 }
-
-/* line 62, ../sass/_grid.scss */
 .flowopposite {
-  float: right;
+    float:right;
 }
-
-/* line 65, ../sass/_grid.scss */
 .nopadding {
-  padding: 0 !important;
+    padding:0 !important;
+}
+.clearall {
+    clear:both;
+}*/
+/************
+** Built
+************/
+/* line 77, ../sass/_grid.scss */
+.onefour {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
 }
 
-/* line 68, ../sass/_grid.scss */
-.clearall {
-  clear: both;
+/* line 84, ../sass/_grid.scss */
+.redo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: row;
 }
 
 /* line 4, ../sass/_about.scss */
@@ -544,98 +476,81 @@
 }
 
 /***** GRID *****/
-/* line 13, ../sass/_grid.scss */
-.column {
-  float: left;
-  padding: 10px 10px;
+/*.column {
+    float:left;
+    padding: 10px 10px;
 }
-
-/* line 17, ../sass/_grid.scss */
 .nofloat {
-  float: none;
+    float:none;
 }
-
-/* line 20, ../sass/_grid.scss */
 .column.full {
-  width: 100%;
+    width:100%;
 }
-
-/* line 23, ../sass/_grid.scss */
 .column.twothirds {
-  width: 66.666666%;
+    width:66.666666%;
 }
-
-/* line 26, ../sass/_grid.scss */
 .column.threefourths {
-  width: 75%;
+    width:75%;
 }
-
-/* line 29, ../sass/_grid.scss */
 .column.fourfifths {
-  width: 80%;
+    width:80%;
 }
-
-/* line 32, ../sass/_grid.scss */
 .column.fivesixths {
-  width: 83.333333%;
+    width:83.333333%;
 }
-
-/* line 35, ../sass/_grid.scss */
 .column.threequarter {
-  width: 75%;
+    width:75%;
 }
-
-/* line 38, ../sass/_grid.scss */
 .column.half {
-  width: 50%;
+    width:50%;
 }
-
-/* line 41, ../sass/_grid.scss */
 .column.third {
-  width: 33.333333%;
+    width:33.333333%;
 }
-
-/* line 44, ../sass/_grid.scss */
 .column.fourth {
-  width: 25%;
+    width:25%;
 }
-
-/* line 47, ../sass/_grid.scss */
 .column.fifth {
-  width: 20%;
+    width:20%;
 }
-
-/* line 50, ../sass/_grid.scss */
 .column.sixth {
-  width: 16.666666%;
+    width:16.666666%;
 }
-
-/***** TOOLS *****/
-/* line 54, ../sass/_grid.scss */
+**** TOOLS ****
 .center {
-  float: none;
-  margin: auto;
+    float:none;
+    margin:auto;
 }
-
-/* line 58, ../sass/_grid.scss */
 .nospace {
-  padding: 0 !important;
-  margin: 0 !important;
+    padding:0 !important;
+    margin:0 !important;
 }
-
-/* line 62, ../sass/_grid.scss */
 .flowopposite {
-  float: right;
+    float:right;
 }
-
-/* line 65, ../sass/_grid.scss */
 .nopadding {
-  padding: 0 !important;
+    padding:0 !important;
+}
+.clearall {
+    clear:both;
+}*/
+/************
+** Built
+************/
+/* line 77, ../sass/_grid.scss */
+.onefour {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
 }
 
-/* line 68, ../sass/_grid.scss */
-.clearall {
-  clear: both;
+/* line 84, ../sass/_grid.scss */
+.redo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: row;
 }
 
 /* line 4, ../sass/_travlr.scss */
@@ -741,7 +656,7 @@
   height: 30em;
 }
 
-/* line 10, ../sass/home-style.scss */
+/* line 9, ../sass/home-style.scss */
 body {
   margin: 0 auto;
   padding: 0;
@@ -750,7 +665,7 @@ body {
   position: relative;
 }
 
-/* line 18, ../sass/home-style.scss */
+/* line 17, ../sass/home-style.scss */
 .pls {
   width: 100%;
   padding-left: 2em;
@@ -759,35 +674,20 @@ body {
   font-weight: 900;
 }
 @media (max-width: 702px) {
-  /* line 18, ../sass/home-style.scss */
+  /* line 17, ../sass/home-style.scss */
   .pls {
     padding-left: 1em;
     font-size: 4em;
   }
 }
 @media (max-width: 480px) {
-  /* line 18, ../sass/home-style.scss */
+  /* line 17, ../sass/home-style.scss */
   .pls {
     font-size: 3em;
   }
 }
 
-/*.rotator {
-    font-family: "Verdana";
-    font-size: 3em;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 100%);
-    //transform: translateY(-50%);
-}*/
-/* line 50, ../sass/home-style.scss */
+/* line 32, ../sass/home-style.scss */
 footer {
   background-color: #ffffff;
   width: 100%;
@@ -796,7 +696,7 @@ footer {
   position: absolute;
   bottom: 0;
 }
-/* line 60, ../sass/home-style.scss */
+/* line 42, ../sass/home-style.scss */
 footer p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.15em;
@@ -805,7 +705,7 @@ footer p {
   padding: .5em;
   top: 1em;
 }
-/* line 68, ../sass/home-style.scss */
+/* line 50, ../sass/home-style.scss */
 footer a {
   text-decoration: none;
   color: black;
@@ -818,7 +718,7 @@ footer a {
   top: 1em;
 }
 
-/* line 83, ../sass/home-style.scss */
+/* line 65, ../sass/home-style.scss */
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -827,19 +727,19 @@ footer a {
   width: 75%;
 }
 @media (max-width: 768px) {
-  /* line 83, ../sass/home-style.scss */
+  /* line 65, ../sass/home-style.scss */
   .wrapper {
     width: 85%;
   }
 }
 @media (max-width: 480px) {
-  /* line 83, ../sass/home-style.scss */
+  /* line 65, ../sass/home-style.scss */
   .wrapper {
     width: 100%;
   }
 }
 
-/* line 97, ../sass/home-style.scss */
+/* line 79, ../sass/home-style.scss */
 .head {
   font: 3.5em "Nunito Sans", sans-serif;
   font-weight: 900;
@@ -847,38 +747,68 @@ footer a {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 97, ../sass/home-style.scss */
+  /* line 79, ../sass/home-style.scss */
   .head {
     font-size: 2.75em;
   }
 }
 @media (max-width: 480px) {
-  /* line 97, ../sass/home-style.scss */
+  /* line 79, ../sass/home-style.scss */
   .head {
     font-size: 2.25em;
   }
 }
 
-/* line 110, ../sass/home-style.scss */
+/* line 92, ../sass/home-style.scss */
 .sub {
   font: 1.5em "Nunito Sans", sans-serif;
   color: #fff;
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 110, ../sass/home-style.scss */
+  /* line 92, ../sass/home-style.scss */
   .sub {
     font-size: 1.25em;
   }
 }
 @media (max-width: 480px) {
-  /* line 110, ../sass/home-style.scss */
+  /* line 92, ../sass/home-style.scss */
   .sub {
     font-size: 1.15em;
   }
 }
 
-/* line 123, ../sass/home-style.scss */
+/* line 104, ../sass/home-style.scss */
+.whitebox {
+  width: 217px;
+  height: 217px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 124, ../sass/home-style.scss */
+.rev {
+  flex-direction: row-reverse;
+}
+
+/* line 128, ../sass/home-style.scss */
+.left {
+  margin-left: 1em;
+}
+
+/* line 131, ../sass/home-style.scss */
+.right {
+  margin-right: 1em;
+}
+
+/* line 135, ../sass/home-style.scss */
+.p {
+  color: #9c4ac9;
+}
+
+/* line 139, ../sass/home-style.scss */
 .overlay {
   opacity: 1;
   top: 0;
@@ -890,11 +820,11 @@ footer a {
   position: relative;
   transition: opacity 0.125s linear;
 }
-/* line 133, ../sass/home-style.scss */
+/* line 149, ../sass/home-style.scss */
 .overlay:hover {
   opacity: 0.5;
 }
-/* line 136, ../sass/home-style.scss */
+/* line 152, ../sass/home-style.scss */
 .overlay .work_text {
   position: absolute;
   width: 100%;
@@ -908,7 +838,7 @@ footer a {
   color: #9c4ac9;
 }
 
-/* line 150, ../sass/home-style.scss */
+/* line 166, ../sass/home-style.scss */
 .photos {
   background-size: cover;
   background-repeat: no-repeat;
@@ -924,62 +854,101 @@ footer a {
 /***********
 **Case Study
 ***********/
-/* line 166, ../sass/home-style.scss */
+/* line 182, ../sass/home-style.scss */
 .bodyp {
   width: 75%;
   margin: 0 auto;
   font-family: "Lora", serif;
   font-size: 1.25em;
   color: #fff;
+  line-height: 1.57;
 }
 @media (max-width: 768px) {
-  /* line 166, ../sass/home-style.scss */
+  /* line 182, ../sass/home-style.scss */
   .bodyp {
     width: 85%;
     font-size: 1.15em;
+    line-height: 1.35;
   }
 }
 @media (max-width: 480px) {
-  /* line 166, ../sass/home-style.scss */
+  /* line 182, ../sass/home-style.scss */
   .bodyp {
     font-size: 1em;
   }
 }
 
-/* line 181, ../sass/home-style.scss */
+/* line 198, ../sass/home-style.scss */
 .sugar_cl {
   background-image: url(../img/sugar_cl.jpg);
+}
+
+/* line 202, ../sass/home-style.scss */
+.button {
+  background-color: none;
+  color: #fff;
+  width: 430px;
+  height: 113px;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: background-color color .2s linear;
+}
+/* line 214, ../sass/home-style.scss */
+.button:hover {
+  background-color: #fff;
+  color: #9c4ac9;
+}
+/* line 218, ../sass/home-style.scss */
+.button .text {
+  font: 3.5em "Nunito Sans", sans-serif;
+  transition: color .2s linear;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 /***********
 **Padding&Margin
 ***********/
-/* line 189, ../sass/home-style.scss */
+/* line 230, ../sass/home-style.scss */
 .bot1 {
   padding-bottom: 1em;
 }
 
-/* line 193, ../sass/home-style.scss */
+/* line 234, ../sass/home-style.scss */
 .bot2 {
   padding-bottom: 2em;
 }
 
-/* line 197, ../sass/home-style.scss */
+/* line 238, ../sass/home-style.scss */
 .bot3 {
   padding-bottom: 3em;
 }
 
-/* line 201, ../sass/home-style.scss */
+/* line 242, ../sass/home-style.scss */
 .bot4 {
   padding-bottom: 4em;
 }
 
-/* line 205, ../sass/home-style.scss */
+/* line 246, ../sass/home-style.scss */
 .mar1 {
   margin-bottom: 1em;
 }
 
-/* line 209, ../sass/home-style.scss */
+/* line 250, ../sass/home-style.scss */
 .mar2 {
   margin-bottom: 2em;
+}
+
+/* line 254, ../sass/home-style.scss */
+.mar3 {
+  margin-bottom: 3em;
+}
+
+/* line 258, ../sass/home-style.scss */
+.mar4 {
+  margin-bottom: 4em;
 }
