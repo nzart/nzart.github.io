@@ -211,6 +211,11 @@ footer {
     align-items: center;
     margin: 0 auto;
     transition: background-color color .2s linear;
+    @media (max-width: 480px) {
+        width: 300px;
+        height: 75px;
+        
+    }
     &:hover {
         background-color:#fff;
         color: rgba(156,74,201,1);
@@ -220,6 +225,9 @@ footer {
         transition: color .2s linear;
         display: inline-block;
         margin: 0 auto;
+        @media (max-width: 480px) {
+            font-size: 2em;
+        }
     }
 }
 
