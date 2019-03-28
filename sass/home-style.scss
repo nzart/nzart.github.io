@@ -36,6 +36,14 @@ body {
     opacity: 0;
 }
 
+.moar {
+    animation-delay: 2s;
+}
+
+.emoar {
+    animation-delay: 2.75s;
+}
+
 @keyframes reveal {
     0% {
         opacity: 0;
@@ -123,17 +131,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    //margin-right: 1em;
-    //margin-left: 1em;
-    @media (max-width: 1000px) {
-        //height: 90%;
-    }
-    @media (max-width: 900px) {
-        //height: 80%;
-    }
-    @media (max-width: 800px) {
-        //height: 70%;
-    }
 }
 
 .rev {
