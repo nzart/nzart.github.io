@@ -684,10 +684,28 @@ body {
   /* line 17, ../sass/home-style.scss */
   .pls {
     font-size: 3em;
+    padding-left: .5em;
   }
 }
 
-/* line 32, ../sass/home-style.scss */
+/* line 33, ../sass/home-style.scss */
+.reveal {
+  animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  animation-delay: .5s;
+  opacity: 0;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* line 50, ../sass/home-style.scss */
 footer {
   background-color: #ffffff;
   width: 100%;
@@ -696,7 +714,7 @@ footer {
   position: absolute;
   bottom: 0;
 }
-/* line 42, ../sass/home-style.scss */
+/* line 57, ../sass/home-style.scss */
 footer p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.15em;
@@ -705,7 +723,7 @@ footer p {
   padding: .5em;
   top: 1em;
 }
-/* line 50, ../sass/home-style.scss */
+/* line 65, ../sass/home-style.scss */
 footer a {
   text-decoration: none;
   color: black;
@@ -718,7 +736,7 @@ footer a {
   top: 1em;
 }
 
-/* line 65, ../sass/home-style.scss */
+/* line 80, ../sass/home-style.scss */
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -727,19 +745,19 @@ footer a {
   width: 75%;
 }
 @media (max-width: 768px) {
-  /* line 65, ../sass/home-style.scss */
+  /* line 80, ../sass/home-style.scss */
   .wrapper {
     width: 85%;
   }
 }
 @media (max-width: 480px) {
-  /* line 65, ../sass/home-style.scss */
+  /* line 80, ../sass/home-style.scss */
   .wrapper {
-    width: 100%;
+    width: 97.5%;
   }
 }
 
-/* line 79, ../sass/home-style.scss */
+/* line 94, ../sass/home-style.scss */
 .head {
   font: 3.5em "Nunito Sans", sans-serif;
   font-weight: 900;
@@ -747,38 +765,38 @@ footer a {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 79, ../sass/home-style.scss */
+  /* line 94, ../sass/home-style.scss */
   .head {
     font-size: 2.75em;
   }
 }
 @media (max-width: 480px) {
-  /* line 79, ../sass/home-style.scss */
+  /* line 94, ../sass/home-style.scss */
   .head {
     font-size: 2.25em;
   }
 }
 
-/* line 92, ../sass/home-style.scss */
+/* line 107, ../sass/home-style.scss */
 .sub {
   font: 1.5em "Nunito Sans", sans-serif;
   color: #fff;
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 92, ../sass/home-style.scss */
+  /* line 107, ../sass/home-style.scss */
   .sub {
     font-size: 1.25em;
   }
 }
 @media (max-width: 480px) {
-  /* line 92, ../sass/home-style.scss */
+  /* line 107, ../sass/home-style.scss */
   .sub {
     font-size: 1.15em;
   }
 }
 
-/* line 104, ../sass/home-style.scss */
+/* line 119, ../sass/home-style.scss */
 .whitebox {
   width: 217px;
   height: 217px;
@@ -788,27 +806,27 @@ footer a {
   align-items: center;
 }
 
-/* line 124, ../sass/home-style.scss */
+/* line 139, ../sass/home-style.scss */
 .rev {
   flex-direction: row-reverse;
 }
 
-/* line 128, ../sass/home-style.scss */
+/* line 143, ../sass/home-style.scss */
 .left {
   margin-left: 1em;
 }
 
-/* line 131, ../sass/home-style.scss */
+/* line 146, ../sass/home-style.scss */
 .right {
   margin-right: 1em;
 }
 
-/* line 135, ../sass/home-style.scss */
+/* line 150, ../sass/home-style.scss */
 .p {
   color: #9c4ac9;
 }
 
-/* line 139, ../sass/home-style.scss */
+/* line 154, ../sass/home-style.scss */
 .overlay {
   opacity: 1;
   top: 0;
@@ -820,11 +838,11 @@ footer a {
   position: relative;
   transition: opacity 0.125s linear;
 }
-/* line 149, ../sass/home-style.scss */
+/* line 164, ../sass/home-style.scss */
 .overlay:hover {
   opacity: 0.5;
 }
-/* line 152, ../sass/home-style.scss */
+/* line 167, ../sass/home-style.scss */
 .overlay .work_text {
   position: absolute;
   width: 100%;
@@ -838,7 +856,7 @@ footer a {
   color: #9c4ac9;
 }
 
-/* line 166, ../sass/home-style.scss */
+/* line 181, ../sass/home-style.scss */
 .photos {
   background-size: cover;
   background-repeat: no-repeat;
@@ -854,7 +872,7 @@ footer a {
 /***********
 **Case Study
 ***********/
-/* line 182, ../sass/home-style.scss */
+/* line 197, ../sass/home-style.scss */
 .bodyp {
   width: 75%;
   margin: 0 auto;
@@ -864,7 +882,7 @@ footer a {
   line-height: 1.57;
 }
 @media (max-width: 768px) {
-  /* line 182, ../sass/home-style.scss */
+  /* line 197, ../sass/home-style.scss */
   .bodyp {
     width: 85%;
     font-size: 1.15em;
@@ -872,18 +890,18 @@ footer a {
   }
 }
 @media (max-width: 480px) {
-  /* line 182, ../sass/home-style.scss */
+  /* line 197, ../sass/home-style.scss */
   .bodyp {
     font-size: 1em;
   }
 }
 
-/* line 198, ../sass/home-style.scss */
+/* line 213, ../sass/home-style.scss */
 .sugar_cl {
   background-image: url(../img/sugar_cl.jpg);
 }
 
-/* line 202, ../sass/home-style.scss */
+/* line 217, ../sass/home-style.scss */
 .button {
   background-color: none;
   color: #fff;
@@ -898,18 +916,18 @@ footer a {
   transition: background-color color .2s linear;
 }
 @media (max-width: 480px) {
-  /* line 202, ../sass/home-style.scss */
+  /* line 217, ../sass/home-style.scss */
   .button {
     width: 300px;
     height: 75px;
   }
 }
-/* line 219, ../sass/home-style.scss */
+/* line 234, ../sass/home-style.scss */
 .button:hover {
   background-color: #fff;
   color: #9c4ac9;
 }
-/* line 223, ../sass/home-style.scss */
+/* line 238, ../sass/home-style.scss */
 .button .text {
   font: 3.5em "Nunito Sans", sans-serif;
   transition: color .2s linear;
@@ -917,7 +935,7 @@ footer a {
   margin: 0 auto;
 }
 @media (max-width: 480px) {
-  /* line 223, ../sass/home-style.scss */
+  /* line 238, ../sass/home-style.scss */
   .button .text {
     font-size: 2em;
   }
@@ -926,42 +944,42 @@ footer a {
 /***********
 **Padding&Margin
 ***********/
-/* line 238, ../sass/home-style.scss */
+/* line 253, ../sass/home-style.scss */
 .bot1 {
   padding-bottom: 1em;
 }
 
-/* line 242, ../sass/home-style.scss */
+/* line 257, ../sass/home-style.scss */
 .bot2 {
   padding-bottom: 2em;
 }
 
-/* line 246, ../sass/home-style.scss */
+/* line 261, ../sass/home-style.scss */
 .bot3 {
   padding-bottom: 3em;
 }
 
-/* line 250, ../sass/home-style.scss */
+/* line 265, ../sass/home-style.scss */
 .bot4 {
   padding-bottom: 4em;
 }
 
-/* line 254, ../sass/home-style.scss */
+/* line 269, ../sass/home-style.scss */
 .mar1 {
   margin-bottom: 1em;
 }
 
-/* line 258, ../sass/home-style.scss */
+/* line 273, ../sass/home-style.scss */
 .mar2 {
   margin-bottom: 2em;
 }
 
-/* line 262, ../sass/home-style.scss */
+/* line 277, ../sass/home-style.scss */
 .mar3 {
   margin-bottom: 3em;
 }
 
-/* line 266, ../sass/home-style.scss */
+/* line 281, ../sass/home-style.scss */
 .mar4 {
   margin-bottom: 4em;
 }

@@ -26,19 +26,34 @@ body {
     }
     @media (max-width: 480px) {
         font-size: 3em;
+        padding-left: .5em;
+    }
+}
+
+.reveal {
+    animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    animation-delay: .5s;
+    opacity: 0;
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
 footer {
     background-color: #ffffff;
     width: 100%;
-    //display: flex;
-    //flex-shrink: 0;
     max-width: 2000px;
     margin: auto auto 0 auto;
     position: absolute;
     bottom: 0;
-    //left: 0;
     p {
         font-family: $prime;
         font-size: 1.15em;
@@ -72,7 +87,7 @@ footer {
         width: 85%;
     }
     @media (max-width: 480px) {
-        width: 100%;
+        width: 97.5%;
     }
 }
 
