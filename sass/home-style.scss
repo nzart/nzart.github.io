@@ -9,7 +9,8 @@
 body {
     margin: 0 auto;
     padding: 0;
-    background: linear-gradient(16deg, rgba(29,43,103,1) 0%, rgba(156,74,201,1) 100%);
+    //background: linear-gradient(16deg, rgba(29,43,103,1) 0%, rgba(156,74,201,1) 100%);
+    background-color: #1d2b67;
     min-height: 100vh;
     position: relative;
 }
@@ -20,6 +21,7 @@ body {
     color: #fff;
     font: 5em $prime;
     font-weight: 900;
+    line-height: 1.1;
     @media (max-width: 702px) {
         padding-left: 1em;
         font-size: 4em;
@@ -62,6 +64,7 @@ footer {
     margin: auto auto 0 auto;
     position: absolute;
     bottom: 0;
+    flex-shrink:  0;
     p {
         font-family: $prime;
         font-size: 1.15em;
@@ -87,6 +90,7 @@ footer {
 //Reusable
 .wrapper {
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
@@ -145,7 +149,7 @@ footer {
 }
 
 .p {
-    color: rgba(156,74,201,1);
+    color: #1d2b67;
 }
 
 .overlay {
@@ -171,8 +175,13 @@ footer {
         font-size: 3em;
         font-family: $second-font;
         font-weight: 900;
-        color: rgba(156,74,201,1);
+        //color: rgba(156,74,201,1);
+        color: #121a3f;
     }
+}
+
+.white-text {
+    color: #fff;
 }
 
 .photos {
@@ -230,7 +239,7 @@ footer {
     }
     &:hover {
         background-color:#fff;
-        color: rgba(156,74,201,1);
+        color: #1d2b67;
     }
     .text {
         font: 3.5em $prime;
