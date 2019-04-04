@@ -1,0 +1,27 @@
+@import 'variable';
+@import 'grid';
+
+.reveal {
+    animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    animation-delay: .5s;
+    opacity: 0;
+}
+
+.moar {
+    animation-delay: 2s;
+}
+
+.emoar {
+    animation-delay: 2.75s;
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

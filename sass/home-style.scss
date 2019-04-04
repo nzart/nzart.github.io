@@ -4,12 +4,13 @@
 @import 'work';
 @import 'about';
 @import 'travlr';
+@import 'anim';
+@import 'padmar';
 
 
 body {
     margin: 0 auto;
     padding: 0;
-    //background: linear-gradient(16deg, rgba(29,43,103,1) 0%, rgba(156,74,201,1) 100%);
     background-color: #1d2b67;
     min-height: 100vh;
     position: relative;
@@ -32,30 +33,50 @@ body {
     }
 }
 
-.reveal {
-    animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
-    animation-delay: .5s;
-    opacity: 0;
-}
-
-.moar {
-    animation-delay: 2s;
-}
-
-.emoar {
-    animation-delay: 2.75s;
-}
-
-@keyframes reveal {
-    0% {
-        opacity: 0;
-        transform: translateY(100%);
+.a_btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all .1s linear;
+    &:hover {
+        width: 200px;
     }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
+    &:hover span {
+        display: flex;
+    }
+    &:hover .fa-plus {
+        display: none;
+    }
+    &:hover .fa-arrow-right {
+        display: flex;
+        transform: translateX(10px);
+    }
+    span {
+        order: -1;
+        display: none;
+        font-family: $prime;
+        font-size: 1.25em;
+        font-weight: 900;
+        transform: translateX(10px);
+        overflow: hidden;
+        color: #1d2b67;
+    }
+    i{
+        color: #1d2b67;
+        margin: 0 auto;
+        display: flex;
+    }
+    .fa-arrow-right {
+        display: none;
     }
 }
+
 
 footer {
     background-color: #ffffff;
@@ -64,7 +85,6 @@ footer {
     margin: auto auto 0 auto;
     position: absolute;
     bottom: 0;
-    flex-shrink:  0;
     p {
         font-family: $prime;
         font-size: 1.15em;
@@ -135,71 +155,37 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 768px) {
+        width: 400px;
+        height: 100px;
+        margin-bottom: 1em;
+    }
 }
 
 .rev {
     flex-direction: row-reverse;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .left {
     margin-left: 1em;
+    @media (max-width: 768px) {
+        margin-left: 0;
+    }
 }
 .right {
     margin-right: 1em;
+    @media (max-width: 768px) {
+        margin-right: 0;
+    }
 }
 
 .p {
     color: #1d2b67;
 }
 
-.overlay {
-    opacity: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(65, 65, 65, 1);
-    display: block;
-    position: relative;
-    transition: opacity 0.125s linear;
-    &:hover {
-        opacity: 0.5;
-    }
-    .work_text {
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 5;
-        font-size: 3em;
-        font-family: $second-font;
-        font-weight: 900;
-        //color: rgba(156,74,201,1);
-        color: #121a3f;
-    }
-}
-
-.white-text {
-    color: #fff;
-}
-
-.photos {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
-    flex-shrink: 0;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    text-align: center;
-}
-
-
-/***********
-**Case Study
-***********/
 .bodyp {
     width: 75%;
     margin: 0 auto;
@@ -210,14 +196,11 @@ footer {
     @media (max-width: 768px) {
         width: 85%;
         font-size: $par-two;
-        line-height: 1.35;
+        line-height: 1.4;
     }
     @media (max-width: 480px) {
         font-size: $par-three;
     }
-}
-.sugar_cl {
-    background-image: url(../img/sugar_cl.jpg);
 }
 
 .button {
@@ -250,40 +233,4 @@ footer {
             font-size: 2em;
         }
     }
-}
-
-
-/***********
-**Padding&Margin
-***********/
-.bot1 {
-    padding-bottom: 1em;
-}
-
-.bot2 {
-    padding-bottom: 2em;
-}
-
-.bot3 {
-    padding-bottom: 3em;
-}
-
-.bot4 {
-    padding-bottom: 4em;
-}
-
-.mar1 {
-    margin-bottom: 1em;
-}
-
-.mar2 {
-    margin-bottom: 2em;
-}
-
-.mar3 {
-    margin-bottom: 3em;
-}
-
-.mar4 {
-    margin-bottom: 4em;
 }
