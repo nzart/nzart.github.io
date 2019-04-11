@@ -948,7 +948,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.25em;
   font-weight: 900;
-  transform: translateX(10px);
+  transform: translateX(15px);
   overflow: hidden;
   color: #1d2b67;
 }
