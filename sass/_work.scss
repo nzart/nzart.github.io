@@ -15,34 +15,38 @@
 }
 
 .overlay {
-    opacity: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(65, 65, 65, 1);
-    display: block;
     position: relative;
-    transition: opacity 0.125s linear;
-    &:hover {
-        opacity: 0.5;
-    }
-    .work_text {
+    &:after {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: "";
         position: absolute;
         width: 100%;
+        height: 100%;
+        transition: all 0.125s linear;
+    }
+    &:hover:after {
+        background-color: rgba(18, 26, 63, 0.57);
+        display: block;
+    }
+    &:hover .work_text {
+        display: block;
+    }
+    .work_text { 
+        position: absolute;
+        z-index: 5;
+        width: 100%;
         text-align: center;
+        display: none;
         top: 50%;
         transform: translateY(-50%);
         z-index: 5;
         font-size: 3em;
         font-family: $second-font;
         font-weight: 900;
-        //color: rgba(156,74,201,1);
-        color: #121a3f;
+        color: #fff;
     }
-}
-
-.white-text {
-    color: #fff;
 }
 

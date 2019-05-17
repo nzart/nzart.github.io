@@ -351,36 +351,42 @@
 
 /* line 17, ../sass/_work.scss */
 .overlay {
-  opacity: 1;
+  position: relative;
+}
+/* line 19, ../sass/_work.scss */
+.overlay:after {
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #414141;
-  display: block;
-  position: relative;
-  transition: opacity 0.125s linear;
-}
-/* line 27, ../sass/_work.scss */
-.overlay:hover {
-  opacity: 0.5;
-}
-/* line 30, ../sass/_work.scss */
-.overlay .work_text {
+  content: "";
   position: absolute;
   width: 100%;
+  height: 100%;
+  transition: all 0.125s linear;
+}
+/* line 30, ../sass/_work.scss */
+.overlay:hover:after {
+  background-color: rgba(18, 26, 63, 0.57);
+  display: block;
+}
+/* line 34, ../sass/_work.scss */
+.overlay:hover .work_text {
+  display: block;
+}
+/* line 37, ../sass/_work.scss */
+.overlay .work_text {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
   text-align: center;
+  display: none;
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
   font-size: 3em;
   font-family: "Lora", serif;
   font-weight: 900;
-  color: #121a3f;
-}
-
-/* line 45, ../sass/_work.scss */
-.white-text {
   color: #fff;
 }
 
