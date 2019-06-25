@@ -1,6 +1,32 @@
 @import 'variable';
 @import 'grid';
 
+.newComp {
+    width: 350px;
+    background-color: #fff;
+    .compImg {
+        width: inherit;
+        height: auto;
+        background-size: contain;
+    }
+    .subContent {
+        padding: .5em 0 .75em .5em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .text {
+            font-family: $prime;
+            color: $color;
+            font-size: 1.5em;
+        }
+        .subText {
+            // padding-left: 1em;
+            // margin-left: .75em;
+            width: 2.25em;
+        }
+    }
+}
+
 
 .photos {
     background-size: cover;
