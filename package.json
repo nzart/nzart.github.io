@@ -10,11 +10,9 @@
   },
   "scripts": {
     "start": "parcel work.html",
-    "predeploy": "rm -rf dist && parcel build work.html --public-url http://imnickzart.com/work.html",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build work.html --public-url ./"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
     "parcel": "^1.12.3",
     "sass": "^1.22.0"
   }
