@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "parcel work.html",
-    "build": "parcel build work.html --public-url /nzart/",
+    "build": "parcel build work.html --public-url /nzart.github.io/",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
