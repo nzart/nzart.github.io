@@ -5,7 +5,7 @@
   "repository": "https://github.com/nzart/nzart.github.io",
   "author": "Nick Zart <nzart@g.clemson.edu>",
   "license": "MIT",
-  "homepage": "http://nzart.gihub.io/work.html",
+  "homepage": "http://imnickzart.com/work.html",
   "dependencies": {
     "bricks.js": "^1.8.0",
     "gh-pages": "^2.0.1"
