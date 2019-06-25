@@ -12,8 +12,8 @@
   },
   "scripts": {
     "start": "parcel work.html",
-    "build": "parcel build work.html --public-url /nzart.github.io/",
-    "predeploy": "yarn build",
+    "build": "parcel build work.html",
+    "predeploy": "yarn build work.html --public-url /nzart.github.io/",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
