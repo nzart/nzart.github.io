@@ -337,35 +337,6 @@
 }
 
 /* line 4, ../sass/_work.scss */
-.newComp {
-  width: 350px;
-  background-color: #fff;
-}
-/* line 7, ../sass/_work.scss */
-.newComp .compImg {
-  width: inherit;
-  height: auto;
-  background-size: contain;
-}
-/* line 12, ../sass/_work.scss */
-.newComp .subContent {
-  padding: .5em 0 .75em .5em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-/* line 17, ../sass/_work.scss */
-.newComp .subContent .text {
-  font-family: "Nunito Sans", sans-serif;
-  color: #1d2b67;
-  font-size: 1.5em;
-}
-/* line 22, ../sass/_work.scss */
-.newComp .subContent .subText {
-  width: 2.25em;
-}
-
-/* line 31, ../sass/_work.scss */
 .photos {
   background-size: cover;
   background-repeat: no-repeat;
@@ -378,45 +349,61 @@
   text-align: center;
 }
 
-/* line 43, ../sass/_work.scss */
-.overlay {
-  position: relative;
+/* line 16, ../sass/_work.scss */
+.workWrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-/* line 45, ../sass/_work.scss */
-.overlay:after {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: all 0.125s linear;
+
+/* line 24, ../sass/_work.scss */
+.newComp {
+  width: 350px;
+  background-color: #fff;
+  margin-bottom: 1em;
 }
-/* line 56, ../sass/_work.scss */
-.overlay:hover:after {
-  background-color: rgba(18, 26, 63, 0.57);
-  display: block;
+@media (max-width: 933px) {
+  /* line 24, ../sass/_work.scss */
+  .newComp {
+    width: 300px;
+  }
 }
-/* line 60, ../sass/_work.scss */
-.overlay:hover .work_text {
-  display: block;
+@media (max-width: 799px) {
+  /* line 24, ../sass/_work.scss */
+  .newComp {
+    width: 250px;
+  }
 }
-/* line 63, ../sass/_work.scss */
-.overlay .work_text {
-  position: absolute;
-  z-index: 5;
-  width: 100%;
-  text-align: center;
-  display: none;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 5;
-  font-size: 3em;
-  font-family: "Lora", serif;
-  font-weight: 900;
-  color: #fff;
+/* line 34, ../sass/_work.scss */
+.newComp .compImg {
+  width: inherit;
+  height: auto;
+  background-size: contain;
+}
+/* line 39, ../sass/_work.scss */
+.newComp .subContent {
+  padding: .5em 0 .75em .5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* line 44, ../sass/_work.scss */
+.newComp .subContent .text {
+  font-family: "Nunito Sans", sans-serif;
+  color: #1d2b67;
+  font-size: 1.5em;
+}
+@media (max-width: 799px) {
+  /* line 44, ../sass/_work.scss */
+  .newComp .subContent .text {
+    font-size: 1.25em;
+  }
+}
+/* line 52, ../sass/_work.scss */
+.newComp .subContent .subText {
+  width: 2.25em;
 }
 
 /*  DEFAULT SETTINGS:
@@ -718,11 +705,12 @@ body {
 footer {
   background-color: #ffffff;
   width: 100%;
-  max-width: 2000px;
+  max-width: 3000px;
   position: absolute;
   bottom: 0;
+  left: 0;
 }
-/* line 125, ../sass/home-style.scss */
+/* line 126, ../sass/home-style.scss */
 footer p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.15em;
@@ -731,7 +719,7 @@ footer p {
   padding: .5em;
   top: 1em;
 }
-/* line 133, ../sass/home-style.scss */
+/* line 134, ../sass/home-style.scss */
 footer a {
   text-decoration: none;
   color: black;
@@ -744,7 +732,7 @@ footer a {
   top: 1em;
 }
 
-/* line 148, ../sass/home-style.scss */
+/* line 149, ../sass/home-style.scss */
 .wrapper {
   display: flex;
   flex: 1 0 auto;
@@ -754,19 +742,19 @@ footer a {
   width: 75%;
 }
 @media (max-width: 768px) {
-  /* line 148, ../sass/home-style.scss */
+  /* line 149, ../sass/home-style.scss */
   .wrapper {
     width: 85%;
   }
 }
 @media (max-width: 480px) {
-  /* line 148, ../sass/home-style.scss */
+  /* line 149, ../sass/home-style.scss */
   .wrapper {
     width: 97.5%;
   }
 }
 
-/* line 163, ../sass/home-style.scss */
+/* line 164, ../sass/home-style.scss */
 .head {
   font: 3.5em "Nunito Sans", sans-serif;
   font-weight: 900;
@@ -774,38 +762,38 @@ footer a {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 163, ../sass/home-style.scss */
+  /* line 164, ../sass/home-style.scss */
   .head {
     font-size: 2.75em;
   }
 }
 @media (max-width: 480px) {
-  /* line 163, ../sass/home-style.scss */
+  /* line 164, ../sass/home-style.scss */
   .head {
     font-size: 2.25em;
   }
 }
 
-/* line 176, ../sass/home-style.scss */
+/* line 177, ../sass/home-style.scss */
 .sub {
   font: 1.5em "Nunito Sans", sans-serif;
   color: #fff;
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 176, ../sass/home-style.scss */
+  /* line 177, ../sass/home-style.scss */
   .sub {
     font-size: 1.25em;
   }
 }
 @media (max-width: 480px) {
-  /* line 176, ../sass/home-style.scss */
+  /* line 177, ../sass/home-style.scss */
   .sub {
     font-size: 1.15em;
   }
 }
 
-/* line 188, ../sass/home-style.scss */
+/* line 189, ../sass/home-style.scss */
 .whitebox {
   width: 217px;
   height: 217px;
@@ -815,7 +803,7 @@ footer a {
   align-items: center;
 }
 @media (max-width: 768px) {
-  /* line 188, ../sass/home-style.scss */
+  /* line 189, ../sass/home-style.scss */
   .whitebox {
     width: 400px;
     height: 100px;
@@ -823,45 +811,45 @@ footer a {
   }
 }
 
-/* line 202, ../sass/home-style.scss */
+/* line 203, ../sass/home-style.scss */
 .rev {
   flex-direction: row-reverse;
 }
 @media (max-width: 768px) {
-  /* line 202, ../sass/home-style.scss */
+  /* line 203, ../sass/home-style.scss */
   .rev {
     flex-direction: column;
   }
 }
 
-/* line 209, ../sass/home-style.scss */
+/* line 210, ../sass/home-style.scss */
 .left {
   margin-left: 1em;
 }
 @media (max-width: 768px) {
-  /* line 209, ../sass/home-style.scss */
+  /* line 210, ../sass/home-style.scss */
   .left {
     margin-left: 0;
   }
 }
 
-/* line 215, ../sass/home-style.scss */
+/* line 216, ../sass/home-style.scss */
 .right {
   margin-right: 1em;
 }
 @media (max-width: 768px) {
-  /* line 215, ../sass/home-style.scss */
+  /* line 216, ../sass/home-style.scss */
   .right {
     margin-right: 0;
   }
 }
 
-/* line 222, ../sass/home-style.scss */
+/* line 223, ../sass/home-style.scss */
 .p {
   color: #1d2b67;
 }
 
-/* line 226, ../sass/home-style.scss */
+/* line 227, ../sass/home-style.scss */
 .bodyp {
   width: 75%;
   margin: 0 auto;
@@ -871,7 +859,7 @@ footer a {
   line-height: 1.57;
 }
 @media (max-width: 768px) {
-  /* line 226, ../sass/home-style.scss */
+  /* line 227, ../sass/home-style.scss */
   .bodyp {
     width: 85%;
     font-size: 1.15em;
@@ -879,13 +867,13 @@ footer a {
   }
 }
 @media (max-width: 480px) {
-  /* line 226, ../sass/home-style.scss */
+  /* line 227, ../sass/home-style.scss */
   .bodyp {
     font-size: 1.065em;
   }
 }
 
-/* line 243, ../sass/home-style.scss */
+/* line 244, ../sass/home-style.scss */
 .button {
   background-color: none;
   color: #fff;
@@ -900,18 +888,18 @@ footer a {
   transition: background-color color .2s linear;
 }
 @media (max-width: 480px) {
-  /* line 243, ../sass/home-style.scss */
+  /* line 244, ../sass/home-style.scss */
   .button {
     width: 300px;
     height: 75px;
   }
 }
-/* line 260, ../sass/home-style.scss */
+/* line 261, ../sass/home-style.scss */
 .button:hover {
   background-color: #fff;
   color: #1d2b67;
 }
-/* line 264, ../sass/home-style.scss */
+/* line 265, ../sass/home-style.scss */
 .button .text {
   font: 3.5em "Nunito Sans", sans-serif;
   transition: color .2s linear;
@@ -919,7 +907,7 @@ footer a {
   margin: 0 auto;
 }
 @media (max-width: 480px) {
-  /* line 264, ../sass/home-style.scss */
+  /* line 265, ../sass/home-style.scss */
   .button .text {
     font-size: 2em;
   }

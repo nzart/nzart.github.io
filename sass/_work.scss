@@ -1,9 +1,36 @@
 @import 'variable';
 @import 'grid';
 
+.photos {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.workWrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .newComp {
     width: 350px;
     background-color: #fff;
+    margin-bottom: 1em;
+    @media (max-width: 933px) {
+        width: 300px;
+    }
+    @media (max-width: 799px) {
+        width: 250px;
+    }
     .compImg {
         width: inherit;
         height: auto;
@@ -18,61 +45,13 @@
             font-family: $prime;
             color: $color;
             font-size: 1.5em;
+            @media (max-width: 799px) {
+                font-size: 1.25em;
+            }
         }
         .subText {
-            // padding-left: 1em;
-            // margin-left: .75em;
             width: 2.25em;
         }
-    }
-}
-
-
-.photos {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
-    flex-shrink: 0;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    text-align: center;
-}
-
-.overlay {
-    position: relative;
-    &:after {
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        transition: all 0.125s linear;
-    }
-    &:hover:after {
-        background-color: rgba(18, 26, 63, 0.57);
-        display: block;
-    }
-    &:hover .work_text {
-        display: block;
-    }
-    .work_text { 
-        position: absolute;
-        z-index: 5;
-        width: 100%;
-        text-align: center;
-        display: none;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 5;
-        font-size: 3em;
-        font-family: $second-font;
-        font-weight: 900;
-        color: #fff;
     }
 }
 
