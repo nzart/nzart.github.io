@@ -13,12 +13,13 @@
     text-align: center;
 }
 
-.workWrap {
+#workWrap {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    height: inherit;
 }
 
 .newComp {
@@ -54,4 +55,24 @@
         }
     }
 }
+
+// .subContent {
+//     padding: .5em 0 .75em .5em;
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+// }
+
+// .text {
+//     font-family: $prime;
+//     color: $color;
+//     font-size: 1.5em;
+//     @media (max-width: 799px) {
+//         font-size: 1.25em;
+//     }
+// }
+
+// .subText {
+//     width: 2.25em;
+// }
 

@@ -8,11 +8,26 @@
     padding-left: .25em;
 }
 
-.hl {
-    font: 1.25em $prime;
+.headCon {
+    font: 2em $prime;
+    padding: .5em 0;
     color: #fff;
-    padding-left: 2em;
-    width: 75%;
+}
+
+.infoCon {
+    font: 1.75em $prime;
+    color: #fff;
+}
+
+.icon {
+    content: '';
+    padding-top: 1em;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    a {
+        padding: 0 1em;
+    }
 }
 
 .connect {
