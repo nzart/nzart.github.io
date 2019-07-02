@@ -8,34 +8,41 @@ const data = [{
     },
     {
         id: 2,
+        loc: './research.html',
+        pic: './img/researchComp.svg',
+        text: 'Research',
+        ike: './img/pencil.svg'
+    },
+    {
+        id: 3,
         loc: './travlr.html',
         pic: './img/travlrComp.png',
         text: 'TRAVLR',
         ike: './img/pencil.svg'
     },
     {
-        id: 3,
+        id: 4,
         loc: 'https://nzart.github.io/runr/',
         pic: './img/runrComp.png',
         text: 'RUNR',
         ike: './img/code.svg'
     },
     {
-        id: 4,
+        id: 5,
         loc: './todo.html',
         pic: './img/todoComp.png',
         text: 'To Do',
         ike: './img/code.svg'
     },
     {
-        id: 5,
+        id: 6,
         loc: './t_shirt.html',
         pic: './img/tshirtComp.png',
         text: 'Branding',
         ike: './img/pencil.svg'
     },
     {
-        id: 6,
+        id: 7,
         loc: './twitu.html',
         pic: './img/twituComp.png',
         text: 'TigerVision',
