@@ -192,7 +192,7 @@
 
 /* line 4, ../sass/_contact.scss */
 .lgtw {
-  font: 4em "Nunito Sans", sans-serif;
+  font: 4em "DM Serif Display", serif;
   font-weight: 900;
   color: #fff;
   padding-left: .25em;
@@ -200,14 +200,14 @@
 
 /* line 11, ../sass/_contact.scss */
 .headCon {
-  font: 2em "Nunito Sans", sans-serif;
+  font: 2em "DM Serif Display", serif;
   padding: .5em 0;
   color: #fff;
 }
 
 /* line 17, ../sass/_contact.scss */
 .infoCon {
-  font: 1.75em "Nunito Sans", sans-serif;
+  font: 1.75em "DM Serif Display", serif;
   color: #fff;
   padding-left: 1.25em;
 }
@@ -232,14 +232,14 @@
 }
 /* line 37, ../sass/_contact.scss */
 .connect p {
-  font: 1.75em "Nunito Sans", sans-serif;
+  font: 1.75em "DM Serif Display", serif;
   font-weight: 900;
   margin-bottom: 0;
   line-height: .8em;
 }
 /* line 43, ../sass/_contact.scss */
 .connect h3 {
-  font: 1.5em "Nunito Sans", sans-serif;
+  font: 1.5em "DM Serif Display", serif;
   margin-left: 1em;
   margin-bottom: 0;
 }
@@ -247,7 +247,7 @@
 .connect a {
   text-decoration: none;
   color: #fff;
-  font: 1.5em "Nunito Sans", sans-serif;
+  font: 1.5em "DM Serif Display", serif;
   margin-left: 1em;
 }
 /* line 54, ../sass/_contact.scss */
@@ -381,8 +381,10 @@
 /* line 25, ../sass/_work.scss */
 .newComp {
   width: 300px;
+  border-radius: 2em;
   background-color: #fff;
   margin-bottom: 1em;
+  overflow: hidden;
 }
 @media (max-width: 933px) {
   /* line 25, ../sass/_work.scss */
@@ -396,32 +398,32 @@
     width: 250px;
   }
 }
-/* line 35, ../sass/_work.scss */
+/* line 37, ../sass/_work.scss */
 .newComp .compImg {
   width: inherit;
   height: auto;
   background-size: contain;
 }
-/* line 40, ../sass/_work.scss */
+/* line 43, ../sass/_work.scss */
 .newComp .subContent {
   padding: .5em 0 .75em .5em;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-/* line 45, ../sass/_work.scss */
+/* line 48, ../sass/_work.scss */
 .newComp .subContent .text {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "DM Serif Display", serif;
   color: #1d2b67;
   font-size: 1.5em;
 }
 @media (max-width: 799px) {
-  /* line 45, ../sass/_work.scss */
+  /* line 48, ../sass/_work.scss */
   .newComp .subContent .text {
     font-size: 1.25em;
   }
 }
-/* line 53, ../sass/_work.scss */
+/* line 56, ../sass/_work.scss */
 .newComp .subContent .subText {
   width: 2.25em;
 }
@@ -606,26 +608,51 @@ body {
   width: 100%;
   padding-left: 2em;
   color: #fff;
-  font: 5em "Nunito Sans", sans-serif;
-  font-weight: 900;
+  font: 7em "DM Serif Display", serif;
+  font-weight: 700;
   line-height: 1.1;
 }
-@media (max-width: 702px) {
+@media (max-width: 1440px) {
   /* line 17, ../sass/home-style.scss */
   .pls {
-    padding-left: 1em;
+    font-size: 6em;
+  }
+}
+@media (max-width: 1227px) {
+  /* line 17, ../sass/home-style.scss */
+  .pls {
+    font-size: 5em;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 17, ../sass/home-style.scss */
+  .pls {
     font-size: 4em;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 818px) {
+  /* line 17, ../sass/home-style.scss */
+  .pls {
+    padding-left: 1em;
+    font-size: 3.5em;
+  }
+}
+@media (max-width: 660px) {
   /* line 17, ../sass/home-style.scss */
   .pls {
     font-size: 3em;
     padding-left: .5em;
   }
 }
+@media (max-width: 541px) {
+  /* line 17, ../sass/home-style.scss */
+  .pls {
+    font-size: 2.5em;
+    line-height: 1.2;
+  }
+}
 
-/* line 35, ../sass/home-style.scss */
+/* line 48, ../sass/home-style.scss */
 .o_btn {
   width: 250px;
   height: 60px;
@@ -637,20 +664,20 @@ body {
   align-items: center;
   overflow: hidden;
 }
-/* line 45, ../sass/home-style.scss */
+/* line 58, ../sass/home-style.scss */
 .o_btn .fa-arrow-right {
   font-size: 1.75em;
   margin: 0 auto;
   transition: transform .125s linear;
 }
-/* line 50, ../sass/home-style.scss */
+/* line 63, ../sass/home-style.scss */
 .o_btn:hover .fa-arrow-right {
   transform: translateX(10px);
 }
-/* line 53, ../sass/home-style.scss */
+/* line 66, ../sass/home-style.scss */
 .o_btn span {
   display: flex;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "DM Serif Display", serif;
   font-size: 1.75em;
   font-weight: 900;
   margin: 0 auto;
@@ -658,18 +685,18 @@ body {
   color: #1d2b67;
   transition: transform .125s linear;
 }
-/* line 63, ../sass/home-style.scss */
+/* line 76, ../sass/home-style.scss */
 .o_btn:hover span {
   transform: translateX(30px);
 }
-/* line 66, ../sass/home-style.scss */
+/* line 79, ../sass/home-style.scss */
 .o_btn i {
   color: #1d2b67;
   margin: 0 auto;
   display: flex;
 }
 
-/* line 74, ../sass/home-style.scss */
+/* line 87, ../sass/home-style.scss */
 footer {
   background-color: #ffffff;
   width: 100%;
@@ -678,20 +705,20 @@ footer {
   bottom: 0;
   left: 0;
 }
-/* line 82, ../sass/home-style.scss */
+/* line 95, ../sass/home-style.scss */
 footer p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "DM Serif Display", serif;
   font-size: 1.15em;
   display: inline-block;
   margin: 0;
   padding: .5em;
   top: 1em;
 }
-/* line 90, ../sass/home-style.scss */
+/* line 103, ../sass/home-style.scss */
 footer a {
   text-decoration: none;
   color: black;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "DM Serif Display", serif;
   font-size: 1.15em;
   font-weight: 400;
   display: inline-block;
@@ -700,7 +727,7 @@ footer a {
   top: 1em;
 }
 
-/* line 105, ../sass/home-style.scss */
+/* line 118, ../sass/home-style.scss */
 .wrapper {
   display: flex;
   flex: 1 0 auto;
@@ -710,82 +737,84 @@ footer a {
   width: 75%;
 }
 @media (max-width: 768px) {
-  /* line 105, ../sass/home-style.scss */
+  /* line 118, ../sass/home-style.scss */
   .wrapper {
     width: 85%;
   }
 }
 @media (max-width: 480px) {
-  /* line 105, ../sass/home-style.scss */
+  /* line 118, ../sass/home-style.scss */
   .wrapper {
     width: 90%;
   }
 }
 
-/* line 120, ../sass/home-style.scss */
+/* line 133, ../sass/home-style.scss */
 .head {
-  font: 3.5em "Nunito Sans", sans-serif;
+  font: 3.5em "DM Serif Display", serif;
   font-weight: 900;
   color: #fff;
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 120, ../sass/home-style.scss */
+  /* line 133, ../sass/home-style.scss */
   .head {
     font-size: 2.75em;
   }
 }
 @media (max-width: 480px) {
-  /* line 120, ../sass/home-style.scss */
+  /* line 133, ../sass/home-style.scss */
   .head {
     font-size: 2.25em;
   }
 }
 
-/* line 133, ../sass/home-style.scss */
+/* line 146, ../sass/home-style.scss */
 .sectionTitle {
-  font: 2.5em "Nunito Sans", sans-serif;
+  font-family: "DM Serif Display", serif;
+  font-size: 2.5em;
+  font-weight: 700;
   padding: .75em 0 .25em 0;
   color: #fff;
 }
 
-/* line 139, ../sass/home-style.scss */
+/* line 154, ../sass/home-style.scss */
 .sub {
-  font: 1.5em "Nunito Sans", sans-serif;
+  font: 1.5em "DM Serif Display", serif;
   color: #fff;
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 139, ../sass/home-style.scss */
+  /* line 154, ../sass/home-style.scss */
   .sub {
     font-size: 1.25em;
   }
 }
 @media (max-width: 480px) {
-  /* line 139, ../sass/home-style.scss */
+  /* line 154, ../sass/home-style.scss */
   .sub {
     font-size: 1.15em;
   }
 }
 
-/* line 151, ../sass/home-style.scss */
+/* line 166, ../sass/home-style.scss */
 .bodyp {
   width: 100%;
   margin: 0 auto;
-  font-family: "Lora", serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 1.2em;
   color: #fff;
   line-height: 1.57;
 }
 @media (max-width: 768px) {
-  /* line 151, ../sass/home-style.scss */
+  /* line 166, ../sass/home-style.scss */
   .bodyp {
     font-size: 1.125em;
     line-height: 1.4;
   }
 }
 @media (max-width: 480px) {
-  /* line 151, ../sass/home-style.scss */
+  /* line 166, ../sass/home-style.scss */
   .bodyp {
     font-size: 1em;
   }

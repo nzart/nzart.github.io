@@ -1,15 +1,15 @@
 const data = [{
         id: 1,
         loc: './sugarapp.html',
-        pic: './img/sugarComp.png',
-        text: 'Sugar Tracker',
+        pic: './img/sugarcomp.jpg',
+        text: 'Change',
         ike: './img/code.svg'
     },
     {
         id: 2,
         loc: './travlr.html',
         pic: './img/travlrComp.png',
-        text: 'TRAVLR',
+        text: 'Change',
         ike: './img/pencil.svg'
     },
     {

@@ -2,28 +2,28 @@
 const data = [{
         id: 1,
         loc: './sugarapp.html',
-        pic: './img/sugarComp.png',
+        pic: './img/sugarComp.jpg',
         text: 'Sugar Tracker',
         ike: './img/code.svg'
     },
     {
         id: 2,
         loc: './research.html',
-        pic: './img/researchComp.svg',
+        pic: './img/researchComp.jpg',
         text: 'Research',
         ike: './img/pencil.svg'
     },
     {
         id: 3,
         loc: './travlr.html',
-        pic: './img/travlrComp.png',
+        pic: './img/travlrComp.jpg',
         text: 'TRAVLR',
         ike: './img/pencil.svg'
     },
     {
         id: 4,
         loc: 'https://nzart.github.io/runr/',
-        pic: './img/runrComp.png',
+        pic: './img/runrComp.jpg',
         text: 'RUNR',
         ike: './img/code.svg'
     },
