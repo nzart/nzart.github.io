@@ -1,0 +1,104 @@
+<!--
+            <div class="content" id="workHead">
+                <div class="head">Work</div>
+                
+                <div class="contentWrap">
+                    <a href="./sugar.html" target="_blank" class="newComp">
+                        <img class="compImg" src="./img/sugarComp.jpg">
+                        <div class="subContent">
+                            <div class="text">Sugar Counter</div>
+                        </div>
+                    </a>
+                    
+                    <a href="./research.html" target="_blank" class="newComp">
+                        <img class="compImg" src="./img/researchComp.jpg">
+                        <div class="subContent">
+                            <div class="text">Research</div>
+                        </div>
+                    </a>
+                    
+                    <a href="./travlr.html" target="_blank" class="newComp">
+                        <img class="compImg" src="./img/travlrComp.jpg">
+                        <div class="subContent">
+                            <div class="text">Travlr</div>
+                        </div>
+                    </a>
+                    
+                    <a href="./shirt.html" target="_blank" class="newComp">
+                        <img class="compImg" src="./img/tshirtComp.png">
+                        <div class="subContent">
+                            <div class="text">Branding</div>
+                        </div>
+                    </a>
+                    
+                    <a href="./twitu.html" target="_blank" class="newComp">
+                        <img class="compImg" src="./img/twituComp.png">
+                        <div class="subContent">
+                            <div class="text">TWITU</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+-->
+
+#hero {
+    content: '';
+    #notorious {
+        background-size: contain;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.newComp {
+    width: 275px;
+    margin: 4em 0;
+    border-radius: .5em;
+    background-color: #fff;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: box-shadow .25s linear; 
+    &:hover {
+        box-shadow: 0 20px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    @media (max-width: 680px) {
+        margin: 2em auto;
+        width: 175px;
+    }
+    @media (max-width: 480px) {
+        margin: .8em auto;
+        width: 125px;
+    }
+    .compImg {
+        width: inherit;
+        height: auto;
+        background-size: contain;
+    }
+    .subContent {
+        padding: .5em 0 .75em .5em;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 .5em;
+        align-items: center;
+        @media (max-width: 500px) {
+            height: 30px;
+        }
+        .text {
+            font-family: $second;
+            font-style: italic;
+            color: #000;
+            font-size: 1em;
+            @media (max-width: 500px) {
+                font-size: .8em;
+            }
+        }
+        .subText {
+            width: 2em;
+            @media (max-width: 500px) {
+                width: 1.5em;
+            }
+        }
+    }
+}
