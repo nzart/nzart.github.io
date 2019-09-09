@@ -97,6 +97,9 @@ a {
 .content {
     padding: 2em 0;
     width: 65%;
+    @media (max-width: 500px) {
+        width: 80%;
+    }
     .contentWrap {
         padding: 1em 0 4em;
         margin: 0 auto;
@@ -129,6 +132,9 @@ a {
     #headerText {
         font-size: 1em;
         font-weight: 700;
+    }
+    .under{ 
+        text-decoration: underline;
     }
 }
 
@@ -217,7 +223,7 @@ form {
         border-radius: .5em;
         cursor: pointer;
         &:hover {
-            background-color: rgba(100, 20, 193, 0.83);
+            background-color: #3c0c74;
         }
     }
     
@@ -298,7 +304,7 @@ footer {
     position: relative;
     text-align: center;
     &:hover .text {
-        text-decoration: underline;
+//        text-decoration: underline;
         left: 5%;
     }
     .frontPage {
@@ -341,7 +347,7 @@ footer {
         .sub {
             top: 3.5em;
             font-size: 1em;
-            font-style: italic;
+//            font-style: italic;
             letter-spacing: .1rem;
             @media (max-width: 900px) {
                 font-size: 1.15em;
