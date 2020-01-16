@@ -1,0 +1,20 @@
+@import 'variable';
+
+h1 {
+    font-family: $font;
+    padding: .5em 0 0 0;
+    @media (max-width: 650px) {
+        font-size: 1.25em;
+        padding: .25em 0 0 0;
+    }
+}
+
+p {
+    font-family: $font;
+    line-height: 1.8;
+    padding: .75em 0;
+    font-size: 1.25em;
+    @media (max-width: 650px) {
+        font-size: .875em;
+    }
+}

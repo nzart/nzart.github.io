@@ -1,9 +1,12 @@
 @import 'variable';
+@import 'typo';
 
 body { 
     margin: 0 auto;
     padding: 0;
-    background-color: #f8f8f8;
+//    background-color: #f8f8f8;
+    background-image: url("../img/bgthree.png");
+    background-size: contain;
 }
 
 .nav {
@@ -61,38 +64,9 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    
 }
 
-#landingPage {
-    width: 65%;
-    height: 100%;
-    padding-bottom: 3em;
-    @media (max-width: 500px) {
-        width: 80%;
-    }
-    #firstText {
-        padding-top: 10em;
-        @media (max-width: 500px) {
-            padding-top: 10em;
-        }
-        .subhead {
-            font-family: $font;
-            font-size: 1.25em;
-            color: $prime;
-        }
-    }
-}
-
-.head {
-    font-family: $font;
-    font-weight: 700;
-    font-size: 2.5em;
-//    color: $prime;
-    color: #000;
-    @media (max-width: 500px) {
-        font-size: 1.5em;
-    }
-}
 
 a {
     text-decoration: none;
@@ -100,12 +74,12 @@ a {
 
 .content {
     padding: 2em 0;
-    width: 65%;
+    width: 70%;
     @media (max-width: 500px) {
         width: 80%;
     }
     .contentWrap {
-        padding: 1em 0 4em;
+        padding: 1em 0 2em;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -115,84 +89,6 @@ a {
         height: inherit;
     }
 }
-
-.textContent {
-    width: 100%;
-    font-family: $font;
-    font-size: 1.25em;
-    line-height: 1.8;
-    @media (max-width: 1000px) {
-        width: 80%;
-    }
-    @media (max-width: 768px) {
-        width: 90%;
-    }
-    @media (max-width: 700px) {
-        font-size: 16px;
-    }
-    p {
-        margin: 28px 0;
-    }
-    #headerText {
-        font-size: 1em;
-        font-weight: 700;
-    }
-    .under{ 
-        text-decoration: underline;
-    }
-}
-
-.personal {
-    background-size: contain;
-    width: 320px;
-    height: 456px;
-    @media (max-width: 1000px) {
-        margin: 0 auto;
-    }
-    @media (max-width: 600px) {
-        width: 200px;
-        height: auto;
-    }
-}
-
-.sparta {
-    width: 300px;
-    height: auto;
-    background-size: contain;
-    margin: 2em 0;
-}
-
-#contact {
-    width: 65%;
-    margin: 2em 10em 4em;
-    font-family: $font;
-//    font-size: 24px;
-    #contactWrap {
-        padding: 1em 0 3em;
-        margin: 0 auto;
-        display: flex;
-        font-size: 1em;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: inherit;
-    
-        ul {
-            display: flex;
-            justify-content: space-between;
-            padding: 0;
-            li {
-                list-style: none;
-                a {
-                    text-decoration: none;
-                    color: #000;
-                }
-            }
-        }
-    }    
-}
-
 
 form {
     margin: 2em auto;
@@ -318,14 +214,13 @@ footer {
     position: relative;
     text-align: center;
     &:hover .text {
-//        text-decoration: underline;
         left: 5%;
     }
     .frontPage {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        margin: 0 auto;
+        margin: 1em auto;
         width: 100%;
         height: 100%;
     }
@@ -341,7 +236,7 @@ footer {
         transition: all .7s ease;
     }
         .main {
-            top: .5em;
+            top: 1.5em;
             font-size: 2em;
             font-weight: 700;
 //            letter-spacing: .45rem;
@@ -355,11 +250,11 @@ footer {
             }
             @media (max-width: 500px) {
                 font-size: 1em;
-                letter-spacing: .2rem;
+                letter-spacing: normal;
             }
         }
         .sub {
-            top: 3.5em;
+            top: 5.5em;
             font-size: 1em;
 //            font-style: italic;
             letter-spacing: .1rem;
@@ -375,40 +270,11 @@ footer {
         }
 }
 
-.o_btn {
-    width: 250px;
-    height: 60px;
-    border-radius: 3px;
-    background-color: $prime;
-    margin: 1em 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    .fa-arrow-right {
-        font-size: 1.5em;
-        margin: 0 auto;
-        transition: transform .125s linear;
-    }
-    &:hover .fa-arrow-right {
-        transform: translateX(10px);
-    }
-    span {
-        display: flex;
-        font-family: $font;
-        font-size: 1.5em;
-        font-weight: 700;
-        margin: 0 auto;
-        overflow: hidden;
-        color: #fff;
-        transition: transform .125s linear;
-    }
-    &:hover span {
-            transform: translateX(30px);
-        }
-    i{
-        color: #fff;
-        margin: 0 auto;
-        display: flex;
-    }
+.heroimg {
+    background-size: auto;
+    width: 100vw;
+}
+
+.space {
+    padding-top: 5em;
 }
