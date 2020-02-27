@@ -2,7 +2,8 @@
 
 h1 {
     font-family: $font;
-    padding: .5em 0 0 0;
+    padding: .75em 0;
+//    margin: .5em 0 0 0;
     @media (max-width: 650px) {
         font-size: 1.25em;
         padding: .25em 0 0 0;

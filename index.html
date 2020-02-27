@@ -4,12 +4,12 @@
         <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
         
-        
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="outside/normalize.css">
         <link rel="stylesheet" type="text/css" href="outside/modernizr.js">
         
         <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <link rel="stylesheet" type="text/css" href="aos.css">
         
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142236474-2"></script>
@@ -45,26 +45,26 @@
             
             <div class="content">
                 <div class="space"></div>
-                    <img class="quarterish" src="./img/nuhelloout.svg">
-                    <h1>I'm Nick Zart.</h1>
-                    <h1>I'm a UI designer and developer in Florida.</h1>
-                
+                    <img class="quarterish" src="./img/nuhello.svg" data-aos="fade-right">
+                    <h1 data-aos="fade-right">I'm Nick Zart.<br> I'm a UI designer and developer in Florida.</h1>
+<!--                    <h1 data-aos="fade-right">I'm a UI designer and developer in Florida.</h1>-->
+                    
             <div id="workHead">
                 <div class="contentWrap">
                     
-                    <a href="./travlr.html" class="frontImg">
+                    <a href="./travlr.html" class="frontImg" data-aos="fade-up">
                         <img class="frontPage" src="./img/travlrArtboard.jpg">
                         <div class="text main">Traveler</div>
                         <div class="text sub">App Design</div>
                     </a>
                     
-                    <a href="./crown.html" class="frontImg">
+                    <a href="./crown.html" class="frontImg" data-aos="fade-up">
                         <img class="frontPage" src="./img/corArtboard.png">
                         <div class="text main" id="black">Crown of Red</div>
                         <div class="text sub" id="black">Branding and Identity</div>
                     </a>
                     
-                    <a href="./health.html" class="frontImg">
+                    <a href="./health.html" class="frontImg" data-aos="fade-up">
                         <img class="frontPage" src="./img/sugarArtboard.jpg">
                         <div class="text main black">Thrice Health</div>
                         <div class="text sub black">App design</div>
@@ -95,7 +95,7 @@
             </div>
            
             
-            <div id="aboutHead">
+            <div id="aboutHead" data-aos="fade-up">
                 <h1>About</h1>
                 
                         <p id="headerText">I am beyond grateful to have come across UX and Front End design. Due to a scheduling conflict I took an introductory web design and development class the Fall of 2016. I could not have asked for a better result.</p>
@@ -140,6 +140,13 @@
                 <a class="text" href="https://codepen.io/njzart1996/" target="_blank"><img src="./img/codp.svg"></a>
             </div>
             <script src="script.js"></script>
+            <script src="aos.js"></script>
+            
+            <script>
+                AOS.init({
+                    offset: 125
+                });
+            </script>
             
         </footer>
 

@@ -13,6 +13,7 @@ window.onscroll = function () {
         third.style.color = '#fff';
     } 
     else {
+//        nav.style.backgroundColor = 'rgba(255, 255, 255, 0)';
         nav.style.backgroundColor = '#fff';
         logo.style.color = '#6414c1';
         first.style.color = '#000';
@@ -20,4 +21,5 @@ window.onscroll = function () {
         third.style.color = '#000';
     }
 };
+
 
