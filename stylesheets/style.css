@@ -96,7 +96,7 @@ body {
 /* line 53, ../sass/style.scss */
 .nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: #050505;
 }
 
 /* line 61, ../sass/style.scss */
@@ -108,23 +108,30 @@ body {
   margin: 0;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
+#rotate {
+  transform-origin: 0 0;
+  margin: 0;
+  transition: transform;
+}
+
+/* line 76, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .content {
   padding: 2em 0;
   width: 70%;
 }
 @media (max-width: 500px) {
-  /* line 75, ../sass/style.scss */
+  /* line 80, ../sass/style.scss */
   .content {
     width: 80%;
   }
 }
-/* line 81, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .content .contentWrap {
   padding: 1em 0 2em;
   margin: 0 auto;
@@ -136,7 +143,7 @@ a {
   height: inherit;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 form {
   margin: 2em auto;
   display: flex;
@@ -149,7 +156,7 @@ form {
   border-radius: .5em;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
-/* line 104, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 form input, form textarea {
   margin: 1em auto;
   padding: .5em;
@@ -157,11 +164,11 @@ form input, form textarea {
   border: none;
   border-bottom: 1px solid #000;
 }
-/* line 111, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 form textarea {
   height: 4em;
 }
-/* line 114, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 form button {
   width: 10em;
   height: 2.5em;
@@ -174,12 +181,12 @@ form button {
   border-radius: .5em;
   cursor: pointer;
 }
-/* line 125, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 form button:hover {
   background-color: #3c0c74;
 }
 
-/* line 132, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 footer {
   width: 100%;
   height: 100px;
@@ -190,12 +197,12 @@ footer {
   flex-wrap: wrap;
 }
 @media (max-width: 700px) {
-  /* line 132, ../sass/style.scss */
+  /* line 137, ../sass/style.scss */
   footer {
     flex-wrap: wrap;
   }
 }
-/* line 143, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 footer #foot {
   font-family: "DM Sans", sans-serif;
   color: #fff;
@@ -203,38 +210,38 @@ footer #foot {
   font-weight: 700;
 }
 @media (max-width: 480px) {
-  /* line 143, ../sass/style.scss */
+  /* line 148, ../sass/style.scss */
   footer #foot {
     font-size: 2em;
   }
 }
-/* line 152, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 footer #social {
   display: flex;
   width: 40%;
   justify-content: space-around;
 }
-/* line 156, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 footer #social img {
   width: 80%;
 }
-/* line 160, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 footer .text {
   font-family: "DM Sans", sans-serif;
   font-size: 1em;
 }
-/* line 164, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 footer a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 170, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 .moar {
   padding-top: 5em;
 }
 
-/* line 174, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .bigish {
   background-size: cover;
   background-repeat: no-repeat;
@@ -245,7 +252,7 @@ footer a {
   text-align: center;
 }
 
-/* line 184, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .quarterish {
   background-size: cover;
   background-repeat: no-repeat;
@@ -256,7 +263,7 @@ footer a {
   text-align: center;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .halfish {
   background-size: cover;
   background-repeat: no-repeat;
@@ -267,30 +274,30 @@ footer a {
   text-align: center;
 }
 @media (max-width: 1000px) {
-  /* line 194, ../sass/style.scss */
+  /* line 199, ../sass/style.scss */
   .halfish {
     width: 50%;
     height: 50%;
   }
 }
 @media (max-width: 500px) {
-  /* line 194, ../sass/style.scss */
+  /* line 199, ../sass/style.scss */
   .halfish {
     width: 60%;
     height: 60%;
   }
 }
 
-/* line 213, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .frontImg {
   position: relative;
   text-align: center;
 }
-/* line 216, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .frontImg:hover .text {
   left: 5%;
 }
-/* line 219, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 .frontImg .frontPage {
   background-size: cover;
   background-repeat: no-repeat;
@@ -299,77 +306,77 @@ footer a {
   width: 100%;
   height: 100%;
 }
-/* line 227, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .frontImg #black {
-  color: #000;
+  color: #050505;
 }
-/* line 230, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .frontImg .text {
   position: absolute;
-  color: #fff;
+  color: #fcfcfc;
   z-index: 5;
   font-family: "DM Sans", sans-serif;
   left: 3%;
   transition: all .7s ease;
 }
-/* line 238, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .frontImg .main {
   top: 1.5em;
   font-size: 2em;
   font-weight: 700;
 }
 @media (max-width: 900px) {
-  /* line 238, ../sass/style.scss */
+  /* line 243, ../sass/style.scss */
   .frontImg .main {
     font-size: 1.75em;
     letter-spacing: .35rem;
   }
 }
 @media (max-width: 700px) {
-  /* line 238, ../sass/style.scss */
+  /* line 243, ../sass/style.scss */
   .frontImg .main {
     font-size: 1.25em;
   }
 }
 @media (max-width: 500px) {
-  /* line 238, ../sass/style.scss */
+  /* line 243, ../sass/style.scss */
   .frontImg .main {
     font-size: 1em;
     letter-spacing: normal;
   }
 }
-/* line 256, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 .frontImg .sub {
   top: 5.5em;
   font-size: 1em;
   letter-spacing: .1rem;
 }
 @media (max-width: 900px) {
-  /* line 256, ../sass/style.scss */
+  /* line 261, ../sass/style.scss */
   .frontImg .sub {
     font-size: 1.15em;
   }
 }
 @media (max-width: 700px) {
-  /* line 256, ../sass/style.scss */
+  /* line 261, ../sass/style.scss */
   .frontImg .sub {
     font-size: 1em;
   }
 }
 @media (max-width: 500px) {
-  /* line 256, ../sass/style.scss */
+  /* line 261, ../sass/style.scss */
   .frontImg .sub {
     font-size: .5em;
   }
 }
 
-/* line 273, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .heroimg {
   background-size: auto;
   width: 100vw;
 }
 
-/* line 278, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 .space {
   padding-top: 5em;
 }
