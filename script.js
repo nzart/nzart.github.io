@@ -22,14 +22,6 @@ window.onscroll = () => {
         second.style.color = '#050505';
         third.style.color = '#050505';
     }
-    
-    let rotate = document.getElementById('rotate');
-  
-    let scroll = ((window.pageYOffset) / 4);
-  
-    let nev = -Math.abs(scroll);
-  
-    rotate.style.transform = `rotate(${nev}deg)`;
 };
 
 
